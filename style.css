@@ -25,7 +25,7 @@
 }
 
 .img-container {
-    height: 6.2vh;
+    height: 5.8vh;
     width: 4vw;
     min-height: 20px;
 }
@@ -62,11 +62,11 @@
 }
 
 .req-point {
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .req-point-name {
-    font-size: 1.5vh;
+    font-size: 1vh;
     margin-top: 0.5vw;
     
 }
@@ -77,15 +77,15 @@
 }
 
 .skill-point {
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: white;
 }
 
 .skill-level-name {
-    font-size: 1.5vh;
+    font-size: 1vh;
     color: #ffd200;
     margin-top: 0.5vw;
-    margin-bottom: 0.2vw;
+    margin-bottom: 0.1vw;
     
 }
 /*****************************/
@@ -141,7 +141,6 @@
 .triport-button-container-1 {
     height: 2vw;
     width: 100%;
-    border: 1px blue solid;
     display: flex;
     justify-content: space-evenly;
     
@@ -151,7 +150,6 @@
 .triport-button-container-2 {
     height: 2vw;
     width: 100%;
-    border: 1px blue solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -160,7 +158,6 @@
 .triport-button-container-3 {
     height: 2vw;
     width: 100%;
-    border: 1px blue solid;
     display: flex;
     justify-content: space-evenly;
 }
