@@ -1,9 +1,16 @@
 import './App.css';
-
+import SkillRow from "./SkillRow";
+import TriportSkills from "./TriportSkills";
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className="table-container">
+        <SkillRow />
+        <SkillRow />
+        <SkillRow />
+        <SkillRow />
+        <SkillRow />
+      </div>
     </div>
   );
 }
