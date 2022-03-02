@@ -16,7 +16,8 @@ const subButton = document.getElementsByClassName("sub-button");
 var skillCounter = 1;
 var reqCounter = 1;
 
-function req_point_change(skillPoint) {
+function req_point_change() {
+
   // if button is clicked code each number by changing the req_counter
   if (skillCounter === 1 || skillCounter === 2) {
     reqCounter = 1;
