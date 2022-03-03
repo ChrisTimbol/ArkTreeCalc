@@ -9,14 +9,21 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+var click_Handler = (function() {
+  var skillCounter = 1;
+  return function() {return skillCounter+=1}
+})();
+
 const reqPoint = document.getElementsByClassName("req-point");
 const skillPoint = document.getElementsByClassName("skill-point");
 const addButton = document.getElementsByClassName("add-button");
 for (const addBut of addButton) {
   addBut.addEventListener("click", function() {
-    alert('addButton has been clicked');
+    
+    //increment each skillbutton
+    skillPoint[0].innerHTML = click_Handler();
   })
-};
+}
 
 const subButton = document.getElementsByClassName("sub-button");
 for (const subBut of subButton) {
