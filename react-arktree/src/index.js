@@ -12,7 +12,19 @@ ReactDOM.render(
 const reqPoint = document.getElementsByClassName("req-point");
 const skillPoint = document.getElementsByClassName("skill-point");
 const addButton = document.getElementsByClassName("add-button");
+for (const addBut of addButton) {
+  addBut.addEventListener("click", function() {
+    alert('addButton has been clicked');
+  })
+};
+
 const subButton = document.getElementsByClassName("sub-button");
+for (const subBut of subButton) {
+  subBut.addEventListener("click", function() {
+    alert('subButton has been clicked');
+  })
+};
+
 var skillCounter = 1;
 var reqCounter = 1;
 
@@ -34,23 +46,23 @@ function req_point_change() {
   } 
 }
 
-addButton[0].addEventListener("click", function () {
+/* addButton[0].addEventListener("click", function () {
   if (parseInt(skillCounter) < 10) {
     skillCounter++;
     req_point_change(skillCounter);
     reqPoint[0].innerHTML = reqCounter.toString();
     skillPoint[0].innerHTML = skillCounter.toString();
   }
-});
+}); */
 
-subButton[0].addEventListener("click", function () {
+/* subButton[0].addEventListener("click", function () {
   if (parseInt(skillCounter) > 1) {
     skillCounter--;
     req_point_change(skillCounter);
     reqPoint[0].innerHTML = reqCounter.toString();
     skillPoint[0].innerHTML = skillCounter.toString();
   }
-});
+}); */
 
 
 //req count order 1 1 2 4 4 8 8 8 12 blank
