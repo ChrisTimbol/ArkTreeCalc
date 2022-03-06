@@ -9,69 +9,55 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-var click_Handler = (function() {
-  var skillCounter = 1;
-  return function() {return skillCounter+=1}
-})();
 
-const reqPoint = document.getElementsByClassName("req-point");
-const skillPoint = document.getElementsByClassName("skill-point");
-const addButton = document.getElementsByClassName("add-button");
-for (const addBut of addButton) {
-  addBut.addEventListener("click", function() {
+let addButtons = document.getElementsByClassName("add-button");
+let subButtons = document.getElementsByClassName("sub-button");
+
+
+const skillCounters = new Array(addButtons.length).fill(1); //initalizes skillCounter to length of amount of addButtons array and fills with 1's
+const reqCounters = new Array(addButtons.length).fill(1);  //initalizes reqCounter to length of amount of addButtons array and fills with 1's
+Array.from(addButtons).forEach((addBtn, i) => {
+  addBtn.addEventListener('click', function (e) {
+    if (skillCounters[i] < 10) {
+      skillCounters[i]++;
+    }
+      const skillPoint = e.target.closest('.counter-component').querySelector('.skill-point')
+      skillPoint.innerHTML = skillCounters[i].toString();
+      const reqPoint = e.target.closest('.counter-component').querySelector('.req-point')
+      reqPoint.innerHTML = req_point_change(skillCounters[i], reqCounters[i]).toString();
     
-    //increment each skillbutton
-    skillPoint[0].innerHTML = click_Handler();
-  })
-}
+  });
+});
 
-const subButton = document.getElementsByClassName("sub-button");
-for (const subBut of subButton) {
-  subBut.addEventListener("click", function() {
-    alert('subButton has been clicked');
-  })
-};
+Array.from(subButtons).forEach((subBtn, i) => {
+  subBtn.addEventListener('click', function (e) {
+    if (skillCounters[i] > 1) {
+      skillCounters[i]--;
+    }
+      const skillPoint = e.target.closest('.counter-component').querySelector('.skill-point')
+      skillPoint.innerHTML = skillCounters[i].toString();
+      const reqPoint = e.target.closest('.counter-component').querySelector('.req-point')
+      reqPoint.innerHTML = req_point_change(skillCounters[i], reqCounters[i]).toString();
+    
+  });
+});
 
-var skillCounter = 1;
-var reqCounter = 1;
-
-function req_point_change() {
-
+function req_point_change(skillCounter, reqCounter) {
   // if button is clicked code each number by changing the req_counter
   if (skillCounter === 1 || skillCounter === 2) {
-    reqCounter = 1;
+    return reqCounter = 1;
   } else if (skillCounter === 3) {
-    reqCounter = 2;
+    return reqCounter = 2;
   } else if (skillCounter === 4 || skillCounter === 5) {
-    reqCounter = 4;
+    return reqCounter = 4;
   } else if (skillCounter === 6 || skillCounter === 7 || skillCounter === 8) {
-    reqCounter = 8;
+    return reqCounter = 8;
   } else if (skillCounter === 9) {
-    reqCounter = 10;
+    return reqCounter = 10;
   } else if (skillCounter === 10) {
-    reqCounter = "\u00A0";
-  } 
+    return reqCounter = "\u00A0";
+  }
 }
-
-/* addButton[0].addEventListener("click", function () {
-  if (parseInt(skillCounter) < 10) {
-    skillCounter++;
-    req_point_change(skillCounter);
-    reqPoint[0].innerHTML = reqCounter.toString();
-    skillPoint[0].innerHTML = skillCounter.toString();
-  }
-}); */
-
-/* subButton[0].addEventListener("click", function () {
-  if (parseInt(skillCounter) > 1) {
-    skillCounter--;
-    req_point_change(skillCounter);
-    reqPoint[0].innerHTML = reqCounter.toString();
-    skillPoint[0].innerHTML = skillCounter.toString();
-  }
-}); */
-
-
 //req count order 1 1 2 4 4 8 8 8 12 blank
 //css grid is for layout, flexbox is for alignment
 //          <p class="combo-name">Point </p>

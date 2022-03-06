@@ -29,10 +29,11 @@
   width: 4vw;
   min-height: 20px;
 }
-.combo-skill-container {
+ .combo-skill-container {
   border-right: 1px solid; /* Line seperator between points and name */
   width: 23vw;                /* width of the skill container border line */
-}
+} 
+
 
 .combo-name {
   color: #ebc201;
@@ -48,27 +49,30 @@
   height: 55%;
 }
 /********skill req points ***********/
-.skill-req-container {
+.counter-component {
+  display: flex;
+}
+ .skill-req-container {
   display: flex;
   align-items: center;
   width: 11vw;
   font-size: 1.1vw;
-}
+} 
 
-.req-container{
+ .req-container{
   text-align: center;
   color: white;
   margin-left: 0.3vw;
-}
+} 
 .skill-container {
   text-align: center;
   margin-left: 0.3vw;
 }
 
-.req-point-name {
+ .req-point-name {
   margin-top: 0.5vw;
 }
-
+ 
 .skill-point {
   color: white;
 }
@@ -79,7 +83,7 @@
   
 }
 /**********add-sub button******************/
-.button-container {
+ .button-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -98,7 +102,7 @@
   color: #cebe8c;
   background-color: #313c48;
   border-radius: 2px;
-}
+} 
 
 .triport-image-container{
   color: #304050;

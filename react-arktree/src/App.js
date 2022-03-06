@@ -1,6 +1,6 @@
 import './App.css';
 import SkillRow from "./SkillRow";
-import TriportSkills from "./TriportSkills";
+//import TriportSkills from "./TriportSkills";
 const App = () => {
   return (
     <div className="App">

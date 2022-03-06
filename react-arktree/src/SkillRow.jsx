@@ -4,12 +4,13 @@ import triports from './images/triportscontrast.png';
 
 function SkillRow() {
     return <div className="skillName">
-            <div className="row-container">
-                <img className="img-container" src={skill} alt="#" />
-                <div className="combo-skill-container">
-                    <p className="combo-name">Point </p>
-                    <p className="skill-name">Spiral Tracker</p>
-                </div>
+        <div className="row-container">
+            <img className="img-container" src={skill} alt="#" />
+            <div className="combo-skill-container">
+                <p className="combo-name">Point </p>
+                <p className="skill-name">Spiral Tracker</p>
+            </div>
+            <div className="counter-component">
                 <div className="skill-req-container">
                     <div className="req-container">
                         <div className="req-point">1</div>
@@ -24,8 +25,9 @@ function SkillRow() {
                     <button type="button" className="add-button">+</button>
                     <button type="button" className="sub-button">-</button>
                 </div>
-                <img className="triport-image-container" src={triports} alt="#" />
             </div>
+            <img className="triport-image-container" src={triports} alt="#" />
+        </div>
     </div>
 }
 
