@@ -9,7 +9,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-
+/* <div className="table-triport">
+<div className="table-container">
+</div>
+</div> */
 let addButtons = document.getElementsByClassName("add-button");
 let subButtons = document.getElementsByClassName("sub-button");
 

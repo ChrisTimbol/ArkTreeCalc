@@ -1,11 +1,11 @@
 import React from "react";
-import skill from './images/skill.png';
-import triports from './images/triportscontrast.png';
+//import skill from './images/skill.png';
+//import triports from './images/triportscontrast.png';
 
 function SkillRow() {
     return <div className="skillName">
         <div className="row-container">
-            <img className="img-container" src={skill} alt="#" />
+            <img className="img-container" src="#" alt="" />
             <div className="combo-skill-container">
                 <p className="combo-name">Point </p>
                 <p className="skill-name">Spiral Tracker</p>
@@ -26,7 +26,7 @@ function SkillRow() {
                     <button type="button" className="sub-button">-</button>
                 </div>
             </div>
-            <img className="triport-image-container" src={triports} alt="#" />
+            <img className="triport-image-container" src=""alt="#" />
         </div>
     </div>
 }
