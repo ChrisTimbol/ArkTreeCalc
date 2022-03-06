@@ -109,16 +109,18 @@
   margin: 0.2vw;
   width: 5vw;
 }
-/**Triport below**********/
+/****Triport below**********/
+
+.table-triport {
+  display: flex;
+}
 .triport-container {
   display: flex;
   justify-content: center;
   color: red;
   background-color: #2b3436;
   border: 4px pink solid;
-  height: 70%;
 }
-
 .triport-button-main-container {
   display: flex;
   justify-content: center;
@@ -129,39 +131,30 @@
   margin: 2vw;
   
 }
-
-
 .triport-button-container-1 {
-  height: 2vw;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  
+  height: 2vw;
+  width: 100%;
 }
-
-
 .triport-button-container-2 {
-  height: 2vw;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  height: 2vw;
+  width: 100%;
+
 }
-
-
 .triport-button-container-3 {
-  height: 2vw;
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  height: 2vw;
+  width: 100%;
 }
-
-
 .triport-image-1 {
   height: 6.2vh;
-  width: 4vw;
+  width: 5vw;
   min-height: 20px;
 }
-
 .triport-break{
   width: 15vw;
   height: 0.1vw;

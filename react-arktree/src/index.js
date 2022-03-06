@@ -57,9 +57,6 @@ function req_point_change(skillCounter, reqCounter) {
   }
 }
 //req count order 1 1 2 4 4 8 8 8 12 blank
-//css grid is for layout, flexbox is for alignment
-//          <p class="combo-name">Point </p>
-
 // add skillpoint navbar /340
 // bottom bar  with 3 buttons
 // turn html to react components
