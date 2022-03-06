@@ -28,7 +28,6 @@ Array.from(addButtons).forEach((addBtn, i) => {
     
   });
 });
-
 Array.from(subButtons).forEach((subBtn, i) => {
   subBtn.addEventListener('click', function (e) {
     if (skillCounters[i] > 1) {
@@ -41,7 +40,6 @@ Array.from(subButtons).forEach((subBtn, i) => {
     
   });
 });
-
 function req_point_change(skillCounter, reqCounter) {
   // if button is clicked code each number by changing the req_counter
   if (skillCounter === 1 || skillCounter === 2) {
