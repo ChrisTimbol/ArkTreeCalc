@@ -27,8 +27,8 @@
 
 .SkillCard_reqtype_point {
 /*     display: flex;
-    justify-content: center; */
-    border: 1px solid;
+    justify-content: center; 
+    border: 1px solid; /*
   
 }
 
@@ -40,7 +40,7 @@
     
 }
 .SkillCard_lvltype_point{
-    display: flex;
+
 /*     justify-content: center; */
     color: white;    
 /*     border: 1px solid; */

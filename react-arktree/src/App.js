@@ -5,39 +5,46 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Stack from 'react-bootstrap/Stack';
 //require.context('./images/Artillerist', false, /\.(png|jpe?g|svg)$/)
 const App = () => {
   return (
     <div className="App">
-      <Container md={'auto'} className="Book_of_coordination">
-        <Row sm={'auto'} xs={'auto'} md={'auto'} className="SkillCard row-cols-6">
-          <Col className="border border-primary">
-            <Image src={require("./images/Artillerist/BS_Skill_01_0.png")} className="img-container" ></Image>
+      <Container className="Book_of_coordination ">
+        <Row x sm='6' xs='6' className="SkillCard "> {/* sm<576px xs >=576 */}
+          <Col sm='auto' xs='auto' className="img-container my-auto">
+            <Image className="skill-img border border-dark" height='44' width='44' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
           </Col>
-          <Col sm={'auto'} xs={'auto'} md={'4'} className="border border-primary">
-            <Col className="SkillCard_skill justify-content-sm-start">
+          <Col sm='3' xs='2' className="border border-primary my-auto">
+            <Stack className="SkillCard_skill" >
               <Col className="SkillCard_skill_type ">Point</Col>
               <Col className="SkillCard_skill_name  ">Spiral Tracker</Col>
-            </Col>
+            </Stack>
           </Col>
 
-          <Col md={'auto'} className="SkillCard_reqtype border border-primary">
-            <Col className="SkillCard_reqtype_point">1</Col>
-            <Col className="SkillCard_reqtype_text">Req. Points</Col>
+          <Col sm='1' xs='1' className="SkillCard_reqtype text-center my-auto">
+            <Stack>
+              <Col className="SkillCard_reqtype_point ">1</Col>
+              <Col className="SkillCard_reqtype_text">Req. Points</Col>
+            </Stack>
           </Col>
 
-          <Col sm={'1'}  md={'auto'} className="SkillCard_lvltype_lvl">
-            <Col className="SkillCard_lvltype_point">1</Col>
-            <Col className="SkillCard_lvltype_text">Skill Lv.</Col>
+          <Col sm='1' xs='1' className="SkillCard_lvltype_lvl text-center my-auto">
+            <Stack >
+              <Col className="SkillCard_lvltype_point ">1</Col>
+              <Col className="SkillCard_lvltype_text">Skill Lv.</Col>
+            </Stack>
           </Col>
-          <Col sm={'1'} md={'auto'} className="SkillCard_buttons_container border border-primary ">
-            <Row className="SkillCard_buttons_container">
-              <Button size={'sm'} className="SkillCard_buttons_plus fw-bold" >+</Button>
-              <Button size={'sm'} className="SkillCard_buttons_minus fw-bold ">-</Button>
-            </Row>
+
+          <Col sm='auto' xs='1' className="SkillCard_buttons_container border border-primary my-auto ">
+            <Stack >
+              <Button size='sm' className="SkillCard_buttons_plus fw-bold border border-dark">+</Button>
+              <Button size='sm' className="SkillCard_buttons_minus fw-bold border border-dark">-</Button>
+            </Stack>
           </Col>
-          <Col  className="img-tripod-container border border-primary" >
-            <Image src={require("./images/tripod.png")} className="tripod-img" width={44} height={44} ></Image>
+          <Col sm='1' xs='1' className="img-tripod-container border border-primary text-center" >
+            <Image src={require("./images/tripod.png")} className="tripod-img" width='44' height='44' ></Image>
           </Col>
 
         </Row>
