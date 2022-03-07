@@ -16,7 +16,7 @@ const App = () => {
           <Col sm='auto' xs='auto' className="img-container my-auto">
             <Image className="skill-img border border-dark" height='48' width='48' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
           </Col>
-          <Col sm='3' xs='2' className="border border-primary my-auto">
+          <Col sm='3' xs='2' className="SkillCard_skill_container my-auto">
             <Stack className="SkillCard_skill" >
               <Col className="SkillCard_skill_type ">Point</Col>
               <Col className="SkillCard_skill_name  ">Spiral Tracker</Col>
