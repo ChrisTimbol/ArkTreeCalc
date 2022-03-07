@@ -1,29 +1,24 @@
 .SkillCard {
     background-color: #2b3436;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    min-height: 44px;
-    font-size: 1.4vw;
 }
 .img-container {
     margin-bottom: 1vh;
-    width: 44px;
-    height: 44px;
+
   }
 
 .SkillCard_skill_type{
     color: #ebc201;
-    margin: 0.3vw 0.1vw 0.0vw 0.1vw;
-    font-size: 1.4vw;
+   /* margin: 0.3vw 0.1vw 0.0vw 0.1vw; */
+
 }
 
 .SkillCard_skill_name{
-    font-size: 1.4vw;
     color: white;
-
 }
 
 .SkillCard_lvltype{
-    padding-top: 1vw;
+  /*   padding-top: 1vw; */
 }
 .SkillCard_reqtype{
     color: white;
@@ -31,73 +26,69 @@
 }
 
 .SkillCard_reqtype_point {
-    display: flex;
-    justify-content: center;
+/*     display: flex;
+    justify-content: center; */
     border: 1px solid;
   
 }
 
 .SkillCard_lvltype_req_text {
-    display: flex;
+/*     display: flex;
     justify-content: center;
     border: 1px solid;
-    margin-top: 1.5vh;
+    margin-top: 1.5vh; */
     
 }
 .SkillCard_lvltype_point{
     display: flex;
-    justify-content: center;
+/*     justify-content: center; */
     color: white;    
-    border: 1px solid;
+/*     border: 1px solid; */
 }
 
 .SkillCard_lvltype_text{
-    display: flex;
-    justify-content: center;
+/*     display: flex;
+    justify-content: center; */
     color: #ffd200;
-    margin-top: 1vh;
+/*     margin-top: 1vh; */
     
     
 }
 
 .SkillCard_buttons_container{
-    display: flex;
-    width: 24px;
+/*     display: flex; */
+/*     width: 24px;
     font-size: 1.4vw;
-    height: 48px;
+    height: 48px; */
     
 }
 .SkillCard_buttons_plus{
-    display: flex;
+/*     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color: #cebe8c;
     background-color: #425161;
-    border: 0px solid;
+/*     border: 0px solid;
     margin-bottom: 1px;
-    height: 24px;
+    height: 24px; */
 
 }
 
 .SkillCard_buttons_minus{
-    display: flex;
+/*     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color: #cebe8c;
     background-color: #425161;
-    border: 0px solid;
-    height: 24px;
+/*     border: 0px solid;
+    height: 24px; */
  
 }
 
 .img-tripod-container {
-    display: flex;
+/*     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-}
-.tripod-img{
+    justify-content: center; */
     width: 44px;
     height: 44px;
 }

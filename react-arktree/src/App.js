@@ -37,7 +37,7 @@ const App = () => {
             </Row>
           </Col>
           <Col  className="img-tripod-container border border-primary" >
-            <Image src={require("./images/tripod.png")} className="tripod-img" ></Image>
+            <Image src={require("./images/tripod.png")} className="tripod-img" width={44} height={44} ></Image>
           </Col>
 
         </Row>
