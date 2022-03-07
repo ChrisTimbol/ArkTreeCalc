@@ -43,7 +43,7 @@ const App = () => {
               <Button size='sm' className="SkillCard_buttons_minus fw-bold border border-dark d-flex justify-content-center">-</Button>
             </Stack>
           </Col>
-          <Col sm='1' xs='1' className="img-tripod-container my-auto d-flex justify-content-center" >
+          <Col sm='auto' xs='1' className="img-tripod-container my-auto border border-primary" >
             <Image src={require("./images/tripod.png")} className="tripod-img " ></Image>
           </Col>
 
