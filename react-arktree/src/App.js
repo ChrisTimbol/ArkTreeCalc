@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
-import Stack from 'react-bootstrap/Stack';
+/* import Button from 'react-bootstrap/Button';
+import Stack from 'react-bootstrap/Stack'; */
 import SkillRow from './SkillRows.jsx';
 const App = () => {
   return (
