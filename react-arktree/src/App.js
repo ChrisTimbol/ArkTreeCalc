@@ -10,34 +10,72 @@ import SkillRow from './SkillRows.jsx';
 const App = () => {
   return (
     <div className="App">
-      <Container fluid className="Book_Of_Coordination ">
+      <Container fluid className="Book_Of_Coordination  border border-primary">
         <Row className="NavBar">NavBar</Row>
 
-        <Row className="rowContainer_for_positioning">
-          <Col  className="SideBar">SideBar</Col>
+        <Row className="rowContainer_for_positioning ">
+          <Col sm='1' className="SideBar">SideBar</Col>
 
-          <Col className="SkillRowColumn">
+          <Col sm='8' md='6' className="SkillRowColumn">
             <SkillRow />
-            </Col>
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+            <SkillRow />
+          </Col>
 
 
-          <Col  className="Triport_Container">
-            <Col className="Triport_Container_Inside">
-                <Row> 
-                  <Button>1</Button>
-                  <Button>2</Button>
-                  <Button>3</Button>
-                </Row>
-                <Row> 
-                  <Button>1</Button>
-                  <Button>2</Button>
-                  <Button>3</Button>
-                </Row>
-                <Row> 
-                  <Button>1</Button>
-                  <Button>2</Button>
-                  <Button>3</Button>
-                </Row>
+          <Col sm='3' className="Triport_Container  border border-primary">
+            <Col className="Triport_Container_Inside border border-primary">
+              <Row className="">
+                <Col>
+
+                  {/* <Image src={require("./images/Tier1.png")} width='48' height='48'></Image> */}
+                  <hr class="hr--logo"></hr>
+                </Col>
+              </Row>
+              <Row className="Triport_tier1_row ">
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+              </Row>
+              <hr class="hr--logo"></hr>
+              <Row className="Triport_tier2_row">
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+              </Row>
+              <hr class="hr--logo"></hr>
+              <Row className="Triport_tier3_row">
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+                <Col className="Triport_Image_Col">
+                  <Image src={require("./images/Artillerist/Tripod_Tier_1_4.png")}></Image>
+                </Col>
+              </Row>
+              <hr class="hr--logo"></hr>
             </Col>
           </Col>
 

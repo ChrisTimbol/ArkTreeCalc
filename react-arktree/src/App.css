@@ -1,4 +1,4 @@
-.SkillRows {
+.SkillCard {
     background-color: #2b3436;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 } 
@@ -13,6 +13,7 @@
 }
 .SkillCard_lvltype_point{
     color: white;    
+
 }
 .SkillCard_lvltype_text{
     color: #ffd200;
@@ -25,3 +26,10 @@
     color: #cebe8c;
     background-color: #425161;
 }
+
+
+/*   hr {
+    background-image: url("./images/Tier1.png");
+    height: 50px;
+    }
+     */
