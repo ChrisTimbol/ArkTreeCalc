@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 function TriportSkill() {
     return <div>
+
         <Col className="Triport_Container_Inside border border-primary  ">
             <Row className="">
                 <Col>
@@ -54,15 +55,6 @@ function TriportSkill() {
             </Row>
             <hr class="hr--logo"></hr>
             <Row className="Triport_tier3_row ">
-                <Col className="blank_spacing">
-                </Col>
-                <Col className="Triport_Image_Col d-flex justify-content-center">
-                    <figure>
-                        <Image fluid='true' src={require("./images/Artillerist/Tripod_Tier_1_4.png")} className="Triport-img-1 d-flex"></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
-                    </figure>
-                </Col>
-
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image fluid='true' src={require("./images/Artillerist/Tripod_Tier_1_4.png")} className="Triport-img-1 d-flex"></Image>
@@ -70,11 +62,16 @@ function TriportSkill() {
                     </figure>
                 </Col>
                 <Col className="blank_spacing">
+                </Col>
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image fluid='true' src={require("./images/Artillerist/Tripod_Tier_1_4.png")} className="Triport-img-1 d-flex"></Image>
+                        <figcaption class="figure-caption">Skill</figcaption>
+                    </figure>
                 </Col>
             </Row>
             <hr class="hr--logo"></hr>
         </Col>
-
     </div>
 }
 export default TriportSkill;
