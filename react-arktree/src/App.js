@@ -17,7 +17,7 @@ const App = () => {
         <Row className="rowContainer_for_positioning ">
           <Col sm='1' className="SideBar">SideBar</Col>
 
-          <Col sm='8' md='6' className="SkillRowColumn">
+          <Col  xs='8' className="SkillRowColumn">
             <SkillRow />
             <SkillRow />
             <SkillRow />
@@ -30,7 +30,10 @@ const App = () => {
             <SkillRow />
             <SkillRow />
           </Col>
-          <TriportSkill />
+          <Col xs='4'>
+            <TriportSkill />
+          </Col>
+
 
 
 
