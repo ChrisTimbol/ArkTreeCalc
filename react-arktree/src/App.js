@@ -11,13 +11,13 @@ import TriportSkill from './TriportSkills.jsx';
 const App = () => {
   return (
     <div className="App">
-      <Container fluid className="Book_Of_Coordination  border border-primary">
+      <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
 
         <Row className="rowContainer_for_positioning ">
           <Col sm='1' className="SideBar">SideBar</Col>
 
-          <Col  xs='8' className="SkillRowColumn">
+          <Col  xs='7' className="SkillRowColumn border border-primary">
             <SkillRow />
             <SkillRow />
             <SkillRow />
@@ -29,9 +29,10 @@ const App = () => {
             <SkillRow />
             <SkillRow />
             <SkillRow />
+            
           </Col>
-          <Col xs='4'>
-            <TriportSkill />
+          <Col xs='5' className=" border border-primary">
+          <TriportSkill />
           </Col>
 
 

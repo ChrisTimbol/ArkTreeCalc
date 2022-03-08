@@ -8,7 +8,6 @@ import Stack from 'react-bootstrap/Stack';
 
 function SkillRow() {
   return <div>
-  <Container fluid className="SkillRows mb-1 ">
     <Row  className="SkillCard "> {/* flex-nowrap sm<576px xs >=576 */}
       <Col sm='auto' xs={{span:6, order: 1}} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
@@ -45,7 +44,7 @@ function SkillRow() {
         <Image src={require("./images/tripod.png")} className="tripod-img " ></Image>
       </Col>
     </Row>
-  </Container>
+
   </div>
 }
 
