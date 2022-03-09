@@ -27,6 +27,9 @@
     background-color: #425161;
 }
 
+.Triport_Container_Inside {
+    background-color : #2b3436;
+}
 .tripodline-1{
     height: 50%;
     border-bottom: 1px solid black;
@@ -38,6 +41,9 @@
     border-bottom: 1px solid black;
 
 }
-.Triport-tier1 {
-    
+hr {
+    height: 1px;
+    border: none;
+    color: black;
+    background-color: black;
 }

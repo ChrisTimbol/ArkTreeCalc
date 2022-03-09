@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 function TriportSkill() {
     return <div>
 
-        <Col className="Triport_Container_Inside border border-primary  ">
+        <Col className="Triport_Container_Inside border border-dark  ">
             <Row >
                 <Col className="d-flex justify-content-center">
                 <Col className="tripodline-1 "></Col>
@@ -64,7 +64,7 @@ function TriportSkill() {
             <Row >
                 <Col className="d-flex justify-content-center">
                 <Col className="tripodline-1 "></Col>
-                <Image fluid='true' roundedCircle='true' src={require("./images/tier3.png")} className="Triport-tier1 border" ></Image>
+                <Image fluid='true' roundedCircle='true' src={require("./images/tier3.png")} className="Triport-tier1" ></Image>
                     <Col className="tripodline-2"></Col>
                 </Col>
             </Row>
@@ -84,7 +84,9 @@ function TriportSkill() {
                     </figure>
                 </Col>
             </Row>
-            <hr class="hr--logo"></hr>
+            <Row>
+                <hr></hr>
+            </Row>
         </Col>
     </div>
 }
