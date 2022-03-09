@@ -9,10 +9,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-/* <div className="table-triport">
-<div className="table-container">
-</div>
-</div> */
+/*add tier image hr
+  change to different triport per click on row
+  load in images for all pages  add triport images
+  add dropdown bar for class selection
+  
+  fix for other sizes
+  light up tiers
+ */
+
+/*
 let addButtons = document.getElementsByClassName("add-button");
 let subButtons = document.getElementsByClassName("sub-button");
 
@@ -72,3 +78,4 @@ function req_point_change(skillCounter, reqCounter) {
 //https://lostark.fandom.com/wiki/Lost_Ark_Wiki
 //https://lostark.fandom.com/wiki/Dual_Buckshot
 //https://lostark.wiki.fextralife.com/Triple+Fist
+*/

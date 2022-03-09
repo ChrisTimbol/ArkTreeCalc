@@ -27,9 +27,17 @@
     background-color: #425161;
 }
 
+.tripodline-1{
+    height: 50%;
+    border-bottom: 1px solid black;
 
-/*   hr {
-    background-image: url("./images/Tier1.png");
-    height: 50px;
-    }
-     */
+}
+
+.tripodline-2{
+    height: 50%;
+    border-bottom: 1px solid black;
+
+}
+.Triport-tier1 {
+    
+}
