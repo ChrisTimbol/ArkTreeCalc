@@ -6,9 +6,9 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 function ClassButton() {
     const [title, setTitle] = useState("Artillerist");
-    return <div>
+    return <>
         <DropdownButton size='sm' title={title}>
-            <Dropdown.Item onClick={ () => setTitle("Artillerist")} href="#/action-1">Artillerist</Dropdown.Item>
+            <Dropdown.Item onClick={() => setTitle("Artillerist")} href="#/action-1">Artillerist</Dropdown.Item>
             <Dropdown.Item onClick={() => setTitle("Bard")} href="#/action-2">Bard</Dropdown.Item>
             <Dropdown.Item onClick={() => setTitle("Deadeye")} href="#/action-3">Deadeye</Dropdown.Item>
             <Dropdown.Item onClick={() => setTitle("Deathblade")} href="#/action-3">Deathblade</Dropdown.Item>
@@ -23,7 +23,7 @@ function ClassButton() {
             <Dropdown.Item onClick={() => setTitle("Striker")} href="#/action-3">Striker</Dropdown.Item>
             <Dropdown.Item onClick={() => setTitle("Wardancer")} href="#/action-3">Wardancer</Dropdown.Item>
         </DropdownButton>
-    </div>
+    </>
 }
 
 export default ClassButton;

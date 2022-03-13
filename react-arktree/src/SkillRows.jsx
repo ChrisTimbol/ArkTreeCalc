@@ -13,7 +13,7 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   } else if (skillCounter === 4 || skillCounter === 5) {
     return setReqCounter(reqCounter = 4);
   } else if (skillCounter === 6 || skillCounter === 7 || skillCounter === 8) {
-    return setReqCounter(reqCounter = 8 );
+    return setReqCounter(reqCounter = 8);
   } else if (skillCounter === 9) {
     return setReqCounter(reqCounter = 10);
   } else if (skillCounter === 10) {
@@ -24,7 +24,7 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
 function SkillRow() {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
-  return <div>
+  return <>
     <Row className="SkillCard mb-1">
       <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
@@ -72,8 +72,7 @@ function SkillRow() {
         <Image src={require("./images/tripod.png")} className="tripod-img " ></Image>
       </Col>
     </Row>
-
-  </div>
+  </>
 }
 
 export default SkillRow;
