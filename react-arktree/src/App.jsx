@@ -10,7 +10,7 @@ import TriportSkill from './TriportSkills.jsx';
 import ClassButton from './ClassButton.jsx';
 import Button from 'react-bootstrap/Button'
 import React, { useState } from 'react';
-         {/*  <img src={artilleristImages['BS_Skill_01_0.png']} alt="#" /> */}
+        
 function importImages(r) {
   let images = {};
   r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
@@ -39,7 +39,7 @@ function createRows(characterClass) {
     return Object.keys(deathbladeImages).map((image) => <SkillRow skillImage={deathbladeImages[image]}/>)
 
   } else if(characterClass === "Gunlancer") {
-    const gunlancerImages = importImages(require.context('../src/images/GunLancer', false, /\.(png)$/));
+    const gunlancerImages = importImages(require.context('../src/images/Gunlancer', false, /\.(png)$/));
     return Object.keys(gunlancerImages).map((image) => <SkillRow skillImage={gunlancerImages[image]}/>)
 
   } else if(characterClass === "Gunslinger") {
@@ -48,6 +48,7 @@ function createRows(characterClass) {
 
   } else if(characterClass === "Paladin") {
     const paladinImages = importImages(require.context('../src/images/Paladin', false, /\.(png)$/));
+    console.log(paladinImages)
     return Object.keys(paladinImages).map((image) => <SkillRow skillImage={paladinImages[image]}/>)
 
   } else if(characterClass === "Scrapper") {
