@@ -5,29 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 /* import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack'; */
-import SkillRow from './SkillRows.jsx';
+import SkillRow from './SkillRow.jsx';
 import TriportSkill from './TriportSkills.jsx';
 import ClassButton from './ClassButton.jsx';
 import Button from 'react-bootstrap/Button'
 import React, { useState } from 'react';
-
+         {/*  <img src={artilleristImages['BS_Skill_01_0.png']} alt="#" /> */}
 function importImages(r) {
   let images = {};
   r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
   return images;
 }
 
-
-
-
-{/*     <img src={artilleristImages["Artillerist_Skill_01_1.png"]}  alt="alt" /> */ }
-
 function createRows(characterClass) {
   if (characterClass === "Artillerist") {
     const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
-    return Object.keys(artilleristImages).map((image) => <SkillRow />)
+    return Object.keys(artilleristImages).map((image) => <SkillRow skillImage={image} />)
 
- 
   } else if(characterClass === "Bard") {
     const bardImages = importImages(require.context('../src/images/Bard', false, /\.(png)$/));
     return Object.keys(bardImages).map((image) => <SkillRow />)
@@ -91,8 +85,10 @@ const App = () => {
   const [characterClass, setCharacterClass] = useState('Artillerist');  //set by Classbutton game class selector
 
   return (
+  
     <div className="App">
       <Container fluid className="Book_Of_Coordination  ">
+
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">
           <Col sm='1' className="SideBar  d-flex justify-content-end mb-1">
@@ -103,7 +99,7 @@ const App = () => {
           <Col xs='7' className="SkillRowColumn">
             {/* if characterClass == classSelected then set amount of rows to the amount of skill Images */}
 
-            {createRows(characterClass)}
+            {createRows(characterClass) /* creates rows based on amount of images */} 
           </Col>
           <Col xs='5' className="">
             <TriportSkill />

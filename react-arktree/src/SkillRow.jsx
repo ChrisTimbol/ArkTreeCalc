@@ -21,14 +21,15 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   }
 }
 
-function SkillRow() {
+function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
   return <>
+
     <Row className="SkillCard mb-1">
       <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
-      </Col>
+      </Col>                                                                                      
       <Col sm='3' xs={{ span: 12, order: 3 }} className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
           <Col className="SkillCard_skill_type ">Point</Col>
