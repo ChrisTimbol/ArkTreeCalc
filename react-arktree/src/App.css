@@ -1,4 +1,4 @@
-.SkillCard {
+.SkillCard, .Reset-Button, .class-Select-Button {
     background-color: #2b3436;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 } 
