@@ -7,8 +7,33 @@ import Col from "react-bootstrap/Col";
 import Stack from 'react-bootstrap/Stack'; */
 import SkillRow from './SkillRows.jsx';
 import TriportSkill from './TriportSkills.jsx';
- import ClassButton from './ClassButton.jsx'; 
+import ClassButton from './ClassButton.jsx'; 
 import Button from 'react-bootstrap/Button'
+
+
+function importImages(r) {
+  let images = {};
+  r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
+const bardImages = importImages(require.context('../src/images/Bard', false, /\.(png)$/));
+const berserkerImages = importImages(require.context('../src/images/Berserker', false, /\.(png)$/));
+const deadeyeImages = importImages(require.context('../src/images/Deadeye', false, /\.(png)$/));
+const deathbladeImages = importImages(require.context('../src/images/Deathblade', false, /\.(png)$/));
+const gunlancerImages = importImages(require.context('../src/images/GunLancer', false, /\.(png)$/));
+const gunslingerImages = importImages(require.context('../src/images/Gunslinger', false, /\.(png)$/));
+const paladinImages = importImages(require.context('../src/images/Paladin', false, /\.(png)$/));
+const scrapperImages = importImages(require.context('../src/images/Scrapper', false, /\.(png)$/));
+const shadowhunterImages = importImages(require.context('../src/images/Shadowhunter', false, /\.(png)$/));
+const sharpshooterImages = importImages(require.context('../src/images/Sharpshooter', false, /\.(png)$/));
+const sorceressImages = importImages(require.context('../src/images/Sorceress', false, /\.(png)$/));
+const soulfistImages = importImages(require.context('../src/images/Soulfist', false, /\.(png)$/));
+const strikerImages = importImages(require.context('../src/images/Striker', false, /\.(png)$/));
+const wardancerImages = importImages(require.context('../src/images/Wardancer', false, /\.(png)$/));
+{/*     <img src={artilleristImages["Artillerist_Skill_01_1.png"]}  alt="alt" /> */}
+
 const App = () => {
   return (
     <div className="App">
@@ -16,7 +41,7 @@ const App = () => {
         <Row className="NavBar">NavBar</Row>
 
         <Row className="rowContainer_for_positioning">
-          <Col sm='1' className="SideBar border border-primary d-flex justify-content-end mb-1">
+          <Col sm='1' className="SideBar  d-flex justify-content-end mb-1">
           <Button size='sm' className="Reset-Button ">⟲</Button>
           {/* on click get DropdownButton property title and then set it on click of a item*/}
           {/* Do this to change all images to depending on click */}
@@ -26,8 +51,8 @@ const App = () => {
            <ClassButton />  
           </Col>
 
-          <Col xs='7' className="SkillRowColumn border border-primary">
-
+          <Col xs='7' className="SkillRowColumn">
+        
             <SkillRow />
             <SkillRow />
             <SkillRow />
@@ -41,7 +66,7 @@ const App = () => {
             <SkillRow />
 
           </Col>
-          <Col xs='5' className=" border border-primary">
+          <Col xs='5' className="">
             <TriportSkill />
           </Col>
         </Row>
