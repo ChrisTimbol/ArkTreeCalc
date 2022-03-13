@@ -20,63 +20,63 @@ function importImages(r) {
 function createRows(characterClass) {
   if (characterClass === "Artillerist") {
     const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
-    return Object.keys(artilleristImages).map((image) => <SkillRow skillImage={image} />)
-
+    return Object.keys(artilleristImages).map((image) => <SkillRow skillImage={artilleristImages[image]} />)
+                         
   } else if(characterClass === "Bard") {
     const bardImages = importImages(require.context('../src/images/Bard', false, /\.(png)$/));
-    return Object.keys(bardImages).map((image) => <SkillRow />)
+    return Object.keys(bardImages).map((image) => <SkillRow skillImage={bardImages[image]}/>)
 
   } else if(characterClass === "Berserker") {
     const berserkerImages = importImages(require.context('../src/images/Berserker', false, /\.(png)$/));
-    return Object.keys(berserkerImages).map((image) => <SkillRow />)
+    return Object.keys(berserkerImages).map((image) => <SkillRow skillImage={berserkerImages[image]}/>)
 
   } else if(characterClass === "Deadeye") {
     const deadeyeImages = importImages(require.context('../src/images/Deadeye', false, /\.(png)$/));
-    return Object.keys(deadeyeImages).map((image) => <SkillRow />)
+    return Object.keys(deadeyeImages).map((image) => <SkillRow skillImage={deadeyeImages[image]}/>)
 
   } else if(characterClass === "Deathblade") {
     const deathbladeImages = importImages(require.context('../src/images/Deathblade', false, /\.(png)$/));
-    return Object.keys(deathbladeImages).map((image) => <SkillRow />)
+    return Object.keys(deathbladeImages).map((image) => <SkillRow skillImage={deathbladeImages[image]}/>)
 
   } else if(characterClass === "Gunlancer") {
     const gunlancerImages = importImages(require.context('../src/images/GunLancer', false, /\.(png)$/));
-    return Object.keys(gunlancerImages).map((image) => <SkillRow />)
+    return Object.keys(gunlancerImages).map((image) => <SkillRow skillImage={gunlancerImages[image]}/>)
 
   } else if(characterClass === "Gunslinger") {
     const gunslingerImages = importImages(require.context('../src/images/Gunslinger', false, /\.(png)$/));
-    return Object.keys(gunslingerImages).map((image) => <SkillRow />)
+    return Object.keys(gunslingerImages).map((image) => <SkillRow skillImage={gunslingerImages[image]}/>)
 
   } else if(characterClass === "Paladin") {
     const paladinImages = importImages(require.context('../src/images/Paladin', false, /\.(png)$/));
-    return Object.keys(paladinImages).map((image) => <SkillRow />)
+    return Object.keys(paladinImages).map((image) => <SkillRow skillImage={paladinImages[image]}/>)
 
   } else if(characterClass === "Scrapper") {
     const scrapperImages = importImages(require.context('../src/images/Scrapper', false, /\.(png)$/));
-    return Object.keys(scrapperImages).map((image) => <SkillRow />)
+    return Object.keys(scrapperImages).map((image) => <SkillRow skillImage={scrapperImages[image]}/>)
 
   } else if(characterClass === "Shadowhunter") {
     const shadowhunterImages = importImages(require.context('../src/images/Shadowhunter', false, /\.(png)$/));
-    return Object.keys(shadowhunterImages).map((image) => <SkillRow />)
+    return Object.keys(shadowhunterImages).map((image) => <SkillRow skillImage={shadowhunterImages[image]}/>)
 
   } else if(characterClass === "Sharpshooter") {
     const sharpshooterImages = importImages(require.context('../src/images/Sharpshooter', false, /\.(png)$/));
-    return Object.keys(sharpshooterImages).map((image) => <SkillRow />)
+    return Object.keys(sharpshooterImages).map((image) => <SkillRow skillImage={sharpshooterImages[image]}/>)
 
   } else if(characterClass === "Sorceress") {
     const sorceressImages = importImages(require.context('../src/images/Sorceress', false, /\.(png)$/));
-    return Object.keys(sorceressImages).map((image) => <SkillRow />)
+    return Object.keys(sorceressImages).map((image) => <SkillRow skillImage={sorceressImages[image]}/>)
 
   } else if(characterClass === "Soulfist") { 
     const soulfistImages = importImages(require.context('../src/images/Soulfist', false, /\.(png)$/));
-    return Object.keys(soulfistImages).map((image) => <SkillRow />)
+    return Object.keys(soulfistImages).map((image) => <SkillRow skillImage={soulfistImages[image]}/>)
 
   } else if(characterClass === "Striker") {
     const strikerImages = importImages(require.context('../src/images/Striker', false, /\.(png)$/));
-    return Object.keys(strikerImages).map((image) => <SkillRow />)
+    return Object.keys(strikerImages).map((image) => <SkillRow skillImage={strikerImages[image]}/>)
 
   } else if(characterClass === "Wardancer") {
     const wardancerImages = importImages(require.context('../src/images/Wardancer', false, /\.(png)$/));
-    return Object.keys(wardancerImages).map((image) => <SkillRow />)
+    return Object.keys(wardancerImages).map((image) => <SkillRow skillImage={wardancerImages[image]}/>)
   }
 }
 

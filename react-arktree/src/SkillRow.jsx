@@ -28,7 +28,7 @@ function SkillRow(props) {
 
     <Row className="SkillCard mb-1">
       <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
-        <Image className="skill-img border border-dark" height='48' width='48' src={require("./images/Artillerist/BS_Skill_01_0.png")}  ></Image>
+        <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
       </Col>                                                                                      
       <Col sm='3' xs={{ span: 12, order: 3 }} className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
