@@ -18,19 +18,19 @@ function TripodSkill() {
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
             </Row>
@@ -45,19 +45,19 @@ function TripodSkill() {
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
             </Row>
@@ -72,7 +72,7 @@ function TripodSkill() {
                 <Col className="Triport_Image_Col   d-flex justify-content-center">
                     <figure>
                         <Image src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
 
                 </Col>
@@ -80,7 +80,7 @@ function TripodSkill() {
                 <Col className="Triport_Image_Col  d-flex justify-content-center">
                     <figure>
                         <Image fluid='true' src={require("./images/Artillerist/Artillerist_Skill_01.png")} className="Triport-img-1 " width='48' height='48'></Image>
-                        <figcaption class="figure-caption">Skill</figcaption>
+                        <figcaption className="figure-caption">Skill</figcaption>
                     </figure>
                 </Col>
             </Row>

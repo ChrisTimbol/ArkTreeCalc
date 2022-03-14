@@ -24,7 +24,7 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
-  return <>
+  return <div>
 
     <Row className="SkillCard mb-1">
       <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
@@ -73,7 +73,7 @@ function SkillRow(props) {
         <Image src={require("./images/tripod.png")} className="tripod-img " ></Image>
       </Col>
     </Row>
-  </>
+  </div>
 }
 
 export default SkillRow;
