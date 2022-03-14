@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
 //import Container from 'react-bootstrap/Container';
-function TriportSkill() {
+function TripodSkill() {
     return <>
 
         <Col className="Triport_Container_Inside border border-dark  ">
@@ -90,4 +90,4 @@ function TriportSkill() {
         </Col>
     </>
 }
-export default TriportSkill;
+export default TripodSkill;
