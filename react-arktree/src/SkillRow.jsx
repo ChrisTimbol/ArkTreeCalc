@@ -32,7 +32,7 @@ function SkillRow(props) {
       </Col>                                                                                      
       <Col sm='3' xs={{ span: 12, order: 3 }} className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
-          <Col className="SkillCard_skill_type ">Point</Col>
+          <Col className="SkillCard_skill_type ">{props.skillType}</Col>
           <Col className="SkillCard_skill_name">Esoteric Skill: Call of the Wind God</Col>
         </Stack>
       </Col>

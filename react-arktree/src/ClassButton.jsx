@@ -8,6 +8,7 @@ function ClassButton(props) {
         <DropdownButton size='sm' title={props.classSelect}>
             <Dropdown.Item onClick={() => {props.setClass("Artillerist")}} href="#">Artillerist</Dropdown.Item>
             <Dropdown.Item onClick={() => {props.setClass("Bard")}} href="#">Bard</Dropdown.Item>
+            <Dropdown.Item onClick={() => {props.setClass("Berserker")}} href="#">Berserker</Dropdown.Item>
             <Dropdown.Item onClick={() => {props.setClass("Deadeye")}} href="#">Deadeye</Dropdown.Item>
             <Dropdown.Item onClick={() => {props.setClass("Deathblade")}} href="#">Deathblade</Dropdown.Item>
             <Dropdown.Item onClick={() => {props.setClass("Gunlancer")}} href="#">Gunlancer</Dropdown.Item>
