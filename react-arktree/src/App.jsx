@@ -76,48 +76,161 @@ function createRows(characterClass) {
 
   } else if (characterClass === "Deathblade") {
     const deathbladeImages = importImages(require.context('../src/images/Deathblade', false, /\.(png)$/));
-    return Object.keys(deathbladeImages).map((image, index) => <SkillRow skillImage={deathbladeImages[image]} skillText={skillTypeText} />)
+    return Object.keys(deathbladeImages).map((image, index) => {
+      if (index === 5) {
+        skillTypeText = "NEW TYPE: 12"
+      } else if (index === 6) {
+        skillTypeText = "Combo"
+      } else if (index === 7 || index === 14 || index === 16) {
+        skillTypeText = "Holding"
+      } else if (index === 8 ){
+        skillTypeText = "Chain"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={deathbladeImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Gunlancer") {
     const gunlancerImages = importImages(require.context('../src/images/Gunlancer', false, /\.(png)$/));
-    return Object.keys(gunlancerImages).map((image, index) => <SkillRow skillImage={gunlancerImages[image]} skillText={skillTypeText} />)
+    return Object.keys(gunlancerImages).map((image, index) => {
+      if (index === 2 || index === 15) {
+        skillTypeText = "Combo"
+      } else if (index === 5 || index === 11) {
+        skillTypeText = "Chain"
+      } else if (index === 16) {
+        skillTypeText = "Holding"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={gunlancerImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Gunslinger") {
     const gunslingerImages = importImages(require.context('../src/images/Gunslinger', false, /\.(png)$/));
-    return Object.keys(gunslingerImages).map((image) => <SkillRow skillImage={gunslingerImages[image]} skillText={skillTypeText} />)
+    return Object.keys(gunslingerImages).map((image, index) => {
+      if (index === 0 || index === 1 || index === 4 || index === 14 || index === 19) {
+        skillTypeText = "Chain"
+      } else  if (index === 5 || index === 6 || index === 13 || index === 20 ) {
+        skillTypeText = "Combo"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={gunslingerImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Paladin") {
     const paladinImages = importImages(require.context('../src/images/Paladin', false, /\.(png)$/));
-    console.log(paladinImages)
-    return Object.keys(paladinImages).map((image) => <SkillRow skillImage={paladinImages[image]} skillText={skillTypeText} />)
+    return Object.keys(paladinImages).map((image, index) => {
+      if (index === 6 || index === 10) {
+        skillTypeText = "Combo"
+      } else  if (index === 7 ) {
+        skillTypeText = "Charge"
+      } else  if (index === 13 ) {
+        skillTypeText = "Chain"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={paladinImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Scrapper") {
     const scrapperImages = importImages(require.context('../src/images/Scrapper', false, /\.(png)$/));
-    return Object.keys(scrapperImages).map((image) => <SkillRow skillImage={scrapperImages[image]} skillText={skillTypeText} />)
+    return Object.keys(scrapperImages).map((image, index) => {
+      if (index === 5 || index === 15 || index === 16) {
+        skillTypeText = "Chain"
+      } else  if (index === 12 || index === 14) {
+        skillTypeText = "Combo"
+      } else  if (index === 13 ) {
+        skillTypeText = "Holding"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={scrapperImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Shadowhunter") {
     const shadowhunterImages = importImages(require.context('../src/images/Shadowhunter', false, /\.(png)$/));
-    return Object.keys(shadowhunterImages).map((image) => <SkillRow skillImage={shadowhunterImages[image]} skillText={skillTypeText} />)
+    return Object.keys(shadowhunterImages).map((image, index) => {
+      if (index === 7 ) {
+        skillTypeText = "Holding"
+      } else  if (index === 13 || index === 14 || index === 15) {
+        skillTypeText = "Chain"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={shadowhunterImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Sharpshooter") {
     const sharpshooterImages = importImages(require.context('../src/images/Sharpshooter', false, /\.(png)$/));
-    return Object.keys(sharpshooterImages).map((image) => <SkillRow skillImage={sharpshooterImages[image]} skillText={skillTypeText} />)
-
+    return Object.keys(sharpshooterImages).map((image, index) => {
+      if (index === 7 ) {
+        skillTypeText = "Holding"
+      } else  if ( index === 17) {
+        skillTypeText = "Chain"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={sharpshooterImages[image]} skillType={skillTypeText} />
+    })
   } else if (characterClass === "Sorceress") {
     const sorceressImages = importImages(require.context('../src/images/Sorceress', false, /\.(png)$/));
-    return Object.keys(sorceressImages).map((image) => <SkillRow skillImage={sorceressImages[image]} skillText={skillTypeText} />)
+    return Object.keys(sorceressImages).map((image, index) => {
+      if (index === 4 ) {
+        skillTypeText = "Chain"
+      } else  if ( index === 7 || index === 13 ||index === 15) {
+        skillTypeText = "Charge"
+      } else if( index === 9 ){
+        skillTypeText = "NEW TYPE: 12"
+      } else if( index === 10 || index === 14 ){
+        skillTypeText = "Combo"
+      } else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={sorceressImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Soulfist") {
     const soulfistImages = importImages(require.context('../src/images/Soulfist', false, /\.(png)$/));
-    return Object.keys(soulfistImages).map((image) => <SkillRow skillImage={soulfistImages[image]} skillText={skillTypeText} />)
+    return Object.keys(soulfistImages).map((image, index) => {
+    if (index === 0 || index === 7 || index === 8) {
+      skillTypeText = "Combo"
+    } else if( index === 15 ) {
+      skillTypeText = "NEW TYPE: 12"
+    } else {
+      skillTypeText = "Normal"
+    }
+    return <SkillRow skillImage={soulfistImages[image]} skillType={skillTypeText} />
+  })
 
   } else if (characterClass === "Striker") {
     const strikerImages = importImages(require.context('../src/images/Striker', false, /\.(png)$/));
-    return Object.keys(strikerImages).map((image) => <SkillRow skillImage={strikerImages[image]} skillText={skillTypeText} />)
+    return Object.keys(strikerImages).map((image, index) => {
+      if (index === 4 || index === 11 || index === 14 || index === 17) {
+        skillTypeText = "Chain"
+      } else if( index === 8 || index === 15) {
+        skillTypeText = "Combo"
+      } else if( index === 9 ) {
+        skillTypeText = "NEW TYPE: 12"
+      }else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={strikerImages[image]} skillType={skillTypeText} />
+    })
 
   } else if (characterClass === "Wardancer") {
     const wardancerImages = importImages(require.context('../src/images/Wardancer', false, /\.(png)$/));
-    return Object.keys(wardancerImages).map((image) => <SkillRow skillImage={wardancerImages[image]} skillText={skillTypeText} />)
+    return Object.keys(wardancerImages).map((image, index) => {
+      if (index === 4 || index === 11 || index === 14 || index === 17) {
+        skillTypeText = "Chain"
+      } else if( index === 8  || index === 15) {
+        skillTypeText = "Combo"
+      }else {
+        skillTypeText = "Normal"
+      }
+      return <SkillRow skillImage={wardancerImages[image]} skillType={skillTypeText} />
+    })
   }
 }
 
