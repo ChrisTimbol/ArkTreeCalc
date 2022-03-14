@@ -1,14 +1,16 @@
 import SkillRow from './SkillRow.jsx';
 import React from 'react';
 
+// Imports images from file directory
 function importImages(r) {
     let images = {};
     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
     return images;
   }
 
+// Creates rows based on amount of images
 function CreateRow(characterRole) {
-    var skillTypeText;
+    var skillTypeText; 
   
     if (characterRole === "Artillerist") {
       const skillNameText = ["Enhanced Shell", "Freeze Shell", "Buckshot", "Multiple Rocket Launcher", "Howitzer", "Summon Turret", "Air Raid", "Flamethrower", "Swing", "Jump Barrage", "Energy Field", "Gatling Gun", "Napalm Shot", "Forward Barrage", "Gravity Explosion", "Plasma Storm", "Homing Barrage"]
