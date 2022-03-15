@@ -21,8 +21,6 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   }
 }
 
-
-
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
