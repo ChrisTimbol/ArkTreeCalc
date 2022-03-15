@@ -17,6 +17,7 @@ function CreateRow(characterRole, setSkillClicked) {
     // create and set SkillRow data 
     if (characterRole === "Artillerist") {
       const skillNameText = ["Enhanced Shell", "Freeze Shell", "Buckshot", "Multiple Rocket Launcher", "Howitzer", "Summon Turret", "Air Raid", "Flamethrower", "Swing", "Jump Barrage", "Energy Field", "Gatling Gun", "Napalm Shot", "Forward Barrage", "Gravity Explosion", "Plasma Storm", "Homing Barrage"]
+      
       const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
       return Object.keys(artilleristImages).map((image, index) => {
         if (index === 7 || index === 14) {
@@ -241,7 +242,7 @@ function CreateRow(characterRole, setSkillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={wardancerImages[image]} skillType={skillNameText[index]} />
+        return <SkillRow setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={wardancerImages[image]} skillType={skillTypeText} skillName={skillNameText[index]} />
       })
     }
   }
