@@ -16,23 +16,24 @@ import React, { useState } from 'react';
 const App = () => {
 
   const [characterRole, setCharacterRole] = useState('Artillerist');  //set by roleButton game class selector
-
+  const [skillClicked, setSkillClicked] = useState("Enhanced Shell");
+  // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
 
     <div className="App" >
       <Container fluid className="Book_Of_Coordination  ">
-
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">
           <Col sm='1' className="SideBar  d-flex justify-content-end mb-1">
             <Button size='sm' className="Reset-Button ">⟲</Button>
+           
             <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
           </Col>
           <Col xs='7' className="SkillRowColumn">
-            {CreateRow(characterRole)}
+            {CreateRow(characterRole, setSkillClicked)}
           </Col>
           <Col xs='5' className="TripodColumn">
-            <TripodSkill />
+            <TripodSkill tripodImage = ""/>
           </Col>
         </Row>
       </Container>

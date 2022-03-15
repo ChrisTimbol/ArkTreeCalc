@@ -22,18 +22,15 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
 }
 // If a SkillCard is clicked then change images based on className="SkillCard_skill_type"
 // if Skillcard_skill_type === 
+// if props.skillName === skillNameText[i] then load image into triport
 
-function handleClick(rowClicked) {
-  console.log(rowClicked)
-  // load images and Names of triports based on row clicked
-}
 
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
   return <div>
 
-    <Row onClick={() => handleClick(props.skillName)} className="SkillCard mb-1">
+    <Row  onClick={() => {props.setSkillClicked(props.skillName)}} className="SkillCard mb-1">
       <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
       </Col>                                                                                      
