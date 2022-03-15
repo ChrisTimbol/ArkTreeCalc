@@ -24,15 +24,15 @@ const App = () => {
       <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">
-          <Col sm='1' className="SideBar  d-flex justify-content-end mb-1">
+          <Col sm='1' md="1" className="SideBar  d-flex justify-content-end mb-1">
             <Button size='sm' className="Reset-Button ">⟲</Button>
            
             <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
           </Col>
-          <Col xs='7' className="SkillRowColumn">
+          <Col xs='7' md="7" className="SkillRowColumn">
             {CreateRow(characterRole, setSkillClicked)}
           </Col>
-          <Col xs='5' className="TripodColumn">
+          <Col xs='5' md="3" className="TripodColumn">
             <TripodSkill tripodImage = ""/>
           </Col>
         </Row>

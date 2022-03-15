@@ -17,7 +17,7 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   } else if (skillCounter === 9) {
     return setReqCounter(reqCounter = 10);
   } else if (skillCounter === 10) {
-    return setReqCounter(reqCounter = "\u00A0");
+    return setReqCounter(reqCounter = 10);
   }
 }
 // If a SkillCard is clicked then change images based on className="SkillCard_skill_type"
@@ -31,31 +31,31 @@ function SkillRow(props) {
   return <div>
 
     <Row  onClick={() => {props.setSkillClicked(props.skillName)}} className="SkillCard mb-1">
-      <Col sm='auto' xs={{ span: 6, order: 1 }} className="img-container my-auto">
+      <Col sm='auto' xs={{ span: 3, order: 1 }} md={{span: 'auto', order: 1}}  className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
       </Col>                                                                                      
-      <Col sm='3' xs={{ span: 12, order: 3 }} className="SkillCard_skill_container my-auto ">
+      <Col sm='3' xs={{ span: 9, order: 2 }} md={{span: 3, order: 2}}  className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
           <Col className="SkillCard_skill_type ">{props.skillType}</Col>
           <Col className="SkillCard_skill_name">{props.skillName}</Col>
         </Stack>
       </Col>
       {/* d-none d-sm-block*/}
-      <Col sm='auto' xs={{ span: 3, order: 4 }} className="SkillCard_reqtype text-center my-auto ">
+      <Col sm='auto' xs={{ span: 3, order: 3 }} md={{span: 2, order: 3}}  className="SkillCard_reqtype text-center my-auto ">
         <Stack gap='1'>
           <Col className="SkillCard_reqtype_point  ">{reqCounter}</Col>
           <Col className="SkillCard_reqtype_text h6">Req. Points</Col>
         </Stack>
       </Col>
 
-      <Col sm='auto' xs={{ span: 2, order: 5 }} className="SkillCard_lvltype_lvl text-center my-auto  ">
+      <Col sm='auto' xs={{ span: 3, order: 4 }} md={{span: 2, order: 4}}  className="SkillCard_lvltype_lvl text-center my-auto  ">
         <Stack gap='1'>
           <Col className="SkillCard_lvltype_point">{skillCounter}</Col>
           <Col className="SkillCard_lvltype_text h6">Skill Lv.</Col>
         </Stack>
       </Col>
 
-      <Col xs={{ span: 4, order: 5 }} className="SkillCard_buttons_container my-auto ">
+      <Col xs={{ span: 3, order: 5 }} md={{span: 2, order: 5}} className="SkillCard_buttons_container my-auto">
         <Stack >
           <Button size='sm' onClick={() => {
             if (skillCounter < 10) {
@@ -73,8 +73,8 @@ function SkillRow(props) {
         </Stack>
       </Col>
 
-      <Col sm='auto' xs={{ span: 4, order: 2 }} className="img-tripod-container my-auto  d-flex justify-content-center " >
-        <Image src={require("./images/tripod.png")} className="tripod-img " ></Image>
+      <Col xs={{ span: 3, order: 5}} md={{span: 1, order: 5}} className="img-tripod-container my-auto  d-flex justify-content-center" >
+        <Image src={require("./images/tripod.png")} className="tripod-img" width="50px " ></Image>
       </Col>
     </Row>
   </div>
