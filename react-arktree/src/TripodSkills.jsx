@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 function TripodSkill() {
     return <>
 
-        <Col className="Triport_Container_Inside border border-dark sticky-top ">
+        <Col className="Triport_Container_Inside border border-dark ">
             <Row >
                 <Col className="d-flex justify-content-center">
                     <Col className="tripodline-1 "></Col>
