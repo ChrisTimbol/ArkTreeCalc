@@ -3,6 +3,8 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+/* import Button from 'react-bootstrap/Button';
+import Stack from 'react-bootstrap/Stack'; */
 import CreateRow from './CreateRow';
 import TripodSkill from './TripodSkills.jsx';
 import RoleButton from './RoleButton.jsx';
@@ -17,9 +19,8 @@ const App = () => {
   const [skillClicked, setSkillClicked] = useState("Enhanced Shell");
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
- 
+
     <div className="App" >
-       {console.log(skillClicked)}
       <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">

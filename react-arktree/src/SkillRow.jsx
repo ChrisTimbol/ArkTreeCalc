@@ -20,9 +20,7 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
     return setReqCounter(reqCounter = 10);
   }
 }
-// If a SkillCard is clicked then change images based on className="SkillCard_skill_type"
-// if Skillcard_skill_type === 
-// if props.skillName === skillNameText[i] then load image into triport
+
 
 
 function SkillRow(props) {
