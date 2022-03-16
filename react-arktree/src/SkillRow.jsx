@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
@@ -24,6 +24,11 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
+  
+  useEffect(() => { // resets counters when switching Roles
+    setSkillCounter(1); //initalize back to 1
+    setReqCounter(1); // initalize back to 1
+  },[props.characterRole]); // follows the state of characterRole , which is selected by RoleButton
   return <div>
 
 
