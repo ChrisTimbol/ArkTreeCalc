@@ -26,7 +26,9 @@ function SkillRow(props) {
   const [reqCounter, setReqCounter] = useState(1);
   return <div>
 
-    <Row  onClick={() => {props.setSkillClicked(props.skillName)}} className="SkillCard mb-1">
+
+    <Row  onClick={() => {props.setSkillClicked(props.skillName)}} className="SkillCard mb-1  btn-outline-secondary">
+     
       <Col sm='auto' xs={{ span: 3, order: 1 }} md={{span: 'auto', order: 1}} lg= {{span: 'auto', order: 1}} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
       </Col>                                                                                      
