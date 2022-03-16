@@ -52,3 +52,9 @@ hr {
     font-size: 0.60em;
     color: white;
 }
+
+
+
+.dropdownMenu {
+    z-index: 999999;
+}  

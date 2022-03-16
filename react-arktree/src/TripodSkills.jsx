@@ -13,8 +13,8 @@ function createTripod(skillClicked) {
     var defaultTripodName = "Skill"
     var skillImages = []
     var tripodName = []
+
     //Artillerist
-    
     if (skillClicked === "Enhanced Shell") { 
         skillImages.push(require("./triportimages/Tripod_Tier_1_98.png"), require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_60.png"),
         require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_61.png"),  require("./triportimages/Tripod_Tier_2_6.png"), 
@@ -176,7 +176,9 @@ function createTripod(skillClicked) {
     return [skillImages, tripodName]
   }
   
-  //console.log(Object.values(tripodImages)[0])
+// Display tripod as grey until clicked
+// Coloring for Combo
+// stic
     
 
 function TripodSkill(props) {
