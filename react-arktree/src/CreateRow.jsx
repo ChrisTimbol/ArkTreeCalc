@@ -7,7 +7,7 @@ import  { artilleristSkillNameText, bardSkillNameText, berserkerSkillNameText,
 // Imports images from file directory
 function importImages(r) {
     let images = {};
-    r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+    r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
     return images;
   }
   
@@ -17,8 +17,7 @@ function CreateRow(characterRole, setSkillClicked) {
     var skillTypeText; 
 
     // create and set SkillRow data 
-    if (characterRole === "Artillerist") {
-      
+    if (characterRole === "Artillerist") {   
       const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
       return Object.keys(artilleristImages).map((image, index) => {
         if (index === 7 || index === 14) {
@@ -26,7 +25,8 @@ function CreateRow(characterRole, setSkillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
+        // pass setState/setSkillClicked as prop because it is generated dynamically
+        return <SkillRow  setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
       })
   
     } else if (characterRole === "Bard") {
