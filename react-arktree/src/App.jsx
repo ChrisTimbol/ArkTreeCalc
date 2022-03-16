@@ -15,27 +15,27 @@ import createTripod from './createTripod';
 */
 
 
-
 const App = () => {
 
   const [characterRole, setCharacterRole] = useState('Artillerist');  //set by roleButton game class selector
   const [skillClicked, setSkillClicked] = useState("Enhanced Shell");
+  const [reset, setReset] = useState(1);
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
 
     <div className="App" >
+      {console.log(skillClicked)} 
       <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">
           <Col sm='1' md="1" className="SideBar  d-flex justify-content-end mb-1">
-            <Button size='sm' className="Reset-Button ">⟲</Button>
+            <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button ">⟲</Button> 
 
             <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
           </Col>
           <Col xs='7' md="7" className="SkillRowColumn">
-            {console.log(skillClicked)}
-            {CreateRow(characterRole, setSkillClicked)}
+            {CreateRow(characterRole, setSkillClicked, reset, setReset)}
           </Col>
           <Col xs='5' md="3" className="TripodColumn">
             <TripodSkill  skillClicked={skillClicked} />

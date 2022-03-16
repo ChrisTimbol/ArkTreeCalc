@@ -28,7 +28,7 @@ function SkillRow(props) {
   useEffect(() => { // resets counters when switching Roles
     setSkillCounter(1); //initalize back to 1
     setReqCounter(1); // initalize back to 1
-  },[props.characterRole]); // follows the state of characterRole , which is selected by RoleButton
+  },[props.characterRole, props.reset]); // follows the state of characterRole , which is selected by RoleButton
   return <div>
 
 
