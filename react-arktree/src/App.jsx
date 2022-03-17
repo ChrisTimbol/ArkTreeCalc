@@ -18,14 +18,14 @@ import createTripod from './createTripod';
 const App = () => {
 
   const [characterRole, setCharacterRole] = useState('Artillerist');  //set by roleButton game class selector
-  const [skillClicked, setSkillClicked] = useState("Enhanced Shell");
+  const [skillClicked, setSkillClicked] = useState("Enhanced Shell"); // move this 
   const [reset, setReset] = useState(1);
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
 
     <div className="App" >
-      {console.log(skillClicked)} 
+
       <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
         <Row className="rowContainer_for_positioning">

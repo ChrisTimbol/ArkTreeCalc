@@ -30,18 +30,30 @@ function SkillRow(props) {
     setSkillCounter(1); //initalize back to 1
     setReqCounter(1); // initalize back to 1
   }, [props.characterRole, props.reset]); // follows the state of characterRole , which is selected by RoleButton
+
+  /**Tripod states */
+  const [btnGrayscale_tier1_1, setbtngrayscale_tier1_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier1_2, setbtngrayscale_tier1_2] = useState('grayscale(100%)');
+  const [btnGrayscale_tier1_3, setbtngrayscale_tier1_3] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_1, setbtngrayscale_tier2_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_2, setbtngrayscale_tier2_2] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_3, setbtngrayscale_tier2_3] = useState('grayscale(100%)');
+  const [btnGrayscale_tier3_1, setbtngrayscale_tier3_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier3_2, setbtngrayscale_tier3_2] = useState('grayscale(100%)');
+  /** */
+
   return <div>
 
     <Row className= "flex-nowrap">
      
       <Col xs='7' md="7" lg="8" className="SkillRowColumn ">
 
-
-        
         <Row onClick={() => {
           props.setSkillClicked(props.skillName)
+          console.log(props.skillClicked) 
           setOpen(!open)
-        }} aria-controls="example-collapse-text" aria-expanded={open} className="SkillCard mb-1  btn-outline-secondary ">
+
+        }} aria-controls="example-collapse-text" aria-expanded={open} className="SkillCard mb-1  btn-outline-secondary">
 
           <Col sm='auto' xs={{ span: 3, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto">
             <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
@@ -52,7 +64,7 @@ function SkillRow(props) {
               <Col className="SkillCard_skill_name">{props.skillName}</Col>
             </Stack>
           </Col>
-          {/* d-none d-sm-block*/}
+   
           <Col sm='auto' xs={{ span: 3, order: 3 }} md={{ span: 2, order: 3 }} lg='2' className="SkillCard_reqtype text-center my-auto ">
             <Stack gap='1'>
               <Col className="SkillCard_reqtype_point  ">{reqCounter}</Col>
@@ -91,14 +103,189 @@ function SkillRow(props) {
         </Row>
       </Col>
 
+    {/*******End of SkillCard rows********************/}
+      <Col xs='5' md="3" lg="" className="TripodColumn border border-primary position-static">
 
-      <Col xs='5' md="3" lg="4" className="TripodColumn border border-primary ">
-        <Collapse in={open}> 
+        {/* Collapsable tripodtree*/}
+        <Collapse in={open} className="position-absolute"> 
           <div id="example-collapse-text">
-            <TripodSkill skillClicked={props.skillClicked} />
+            {/*******************Tripod Container***********************************************************/} 
+          <Col className="Triport_Container_Inside border border-dark ">
+            <Row >
+                <Col className="d-flex justify-content-center">
+                    <Col className="tripodline-1 "></Col>
+                    <Image fluid='true' roundedCircle='true' src={require("./images/tier1.png")} className="Triport-tier1" ></Image>
+                    <Col className="tripodline-2"></Col>
+                </Col>
+            </Row>
+            {/****************Tier1*************************/}
+
+            <Row className="Triport_tier1_row ">
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier1_1 === "grayscale(100%)") {
+                                setbtngrayscale_tier1_1("grayscale(0%)");
+                                setbtngrayscale_tier1_2("grayscale(100%)");
+                                setbtngrayscale_tier1_3("grayscale(100%)");
+                            }
+                            else {
+                                setbtngrayscale_tier1_1("grayscale(100%)");
+                                setbtngrayscale_tier1_2("grayscale(100%)");
+                                setbtngrayscale_tier1_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier1_1 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption ">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier1_2 === "grayscale(100%)") {
+                                setbtngrayscale_tier1_1("grayscale(100%)");
+                                setbtngrayscale_tier1_2("grayscale(0%)");
+                                setbtngrayscale_tier1_3("grayscale(100%)");
+                            }
+                            else {
+                                setbtngrayscale_tier1_1("grayscale(100%)");
+                                setbtngrayscale_tier1_2("grayscale(100%)");
+                                setbtngrayscale_tier1_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier1_2 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier1_3 === "grayscale(100%)") {
+                                setbtngrayscale_tier1_1("grayscale(100%)");
+                                setbtngrayscale_tier1_2("grayscale(100%)");
+                                setbtngrayscale_tier1_3("grayscale(0%)");
+                            }
+                            else {
+                                setbtngrayscale_tier1_1("grayscale(100%)");
+                                setbtngrayscale_tier1_2("grayscale(100%)");
+                                setbtngrayscale_tier1_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier1_3 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+            </Row>
+            {/**********************End Of Tier1*****************/}
+            {/*************************Tier 2*******************/}
+            <Row >
+                <Col className="d-flex justify-content-center">
+                    <Col className="tripodline-1 "></Col>
+                    <Image fluid='true' roundedCircle='true' src={require("./images/tier2.png")} className="Tripod-tier2" ></Image>
+                    <Col className="tripodline-2"></Col>
+                </Col>
+            </Row>
+            <Row className="Triport_tier2_row ">
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier2_1 === "grayscale(100%)" && (btnGrayscale_tier1_1 === "grayscale(0%)" || btnGrayscale_tier1_2 === "grayscale(0%)" || btnGrayscale_tier1_3 === "grayscale(0%)"  ) ) {
+                                setbtngrayscale_tier2_1("grayscale(0%)");
+                                setbtngrayscale_tier2_2("grayscale(100%)");
+                                setbtngrayscale_tier2_3("grayscale(100%)");
+                            }
+                            else {
+                                setbtngrayscale_tier2_1("grayscale(100%)");
+                                setbtngrayscale_tier2_2("grayscale(100%)");
+                                setbtngrayscale_tier2_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier2_1 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier2_2 === "grayscale(100%)" && (btnGrayscale_tier1_1 === "grayscale(0%)" || btnGrayscale_tier1_2 === "grayscale(0%)" || btnGrayscale_tier1_3 === "grayscale(0%)"  )) {
+                                setbtngrayscale_tier2_1("grayscale(100%)");
+                                setbtngrayscale_tier2_2("grayscale(0%)");
+                                setbtngrayscale_tier2_3("grayscale(100%)");
+                            }
+                            else {
+                                setbtngrayscale_tier2_1("grayscale(100%)");
+                                setbtngrayscale_tier2_2("grayscale(100%)");
+                                setbtngrayscale_tier2_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier2_2 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+                <Col className="Triport_Image_Col d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier2_3 === "grayscale(100%)" && (btnGrayscale_tier1_1 === "grayscale(0%)" || btnGrayscale_tier1_2 === "grayscale(0%)" || btnGrayscale_tier1_3 === "grayscale(0%)"  )) {
+                                setbtngrayscale_tier2_1("grayscale(100%)");
+                                setbtngrayscale_tier2_2("grayscale(100%)");
+                                setbtngrayscale_tier2_3("grayscale(0%)");
+                            }
+                            else {
+                                setbtngrayscale_tier2_1("grayscale(100%)");
+                                setbtngrayscale_tier2_2("grayscale(100%)");
+                                setbtngrayscale_tier2_3("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier2_3 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+            </Row>
+            {/****End of Tier2 */} 
+            {/**Tier3 *********/}
+            <Row >
+                <Col className="d-flex justify-content-center">
+                    <Col className="tripodline-1 "></Col>
+                    <Image fluid='true' roundedCircle='true' src={require("./images/tier3.png")} className="Tripod-tier1" ></Image>
+                    <Col className="tripodline-2"></Col>
+                </Col>
+            </Row>
+            <Row className="Triport_tier3_row   ">
+                <Col className="Triport_Image_Col   d-flex justify-content-center">
+                    <figure>
+                        <Image onClick={() => {
+                            if (btnGrayscale_tier3_1 === "grayscale(100%)" && (btnGrayscale_tier2_1 === "grayscale(0%)" || btnGrayscale_tier2_2 === "grayscale(0%)" || btnGrayscale_tier2_3 === "grayscale(0%)"  )) {
+                                setbtngrayscale_tier3_1("grayscale(0%)");
+                                setbtngrayscale_tier3_2("grayscale(100%)");
+                            }
+                            else {
+                                setbtngrayscale_tier3_1("grayscale(100%)");
+                                setbtngrayscale_tier3_2("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier3_1 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+
+                </Col>
+
+                <Col className="Triport_Image_Col  d-flex justify-content-center">
+                    <figure>
+                        <Image fluid='true' onClick={() => {
+                            if (btnGrayscale_tier3_2 === "grayscale(100%)" && (btnGrayscale_tier2_1 === "grayscale(0%)" || btnGrayscale_tier2_2 === "grayscale(0%)" || btnGrayscale_tier2_3 === "grayscale(0%)"  )) {
+                                setbtngrayscale_tier3_1("grayscale(100%)");
+                                setbtngrayscale_tier3_2("grayscale(0%)");
+                            }
+                            else {
+                                setbtngrayscale_tier3_1("grayscale(100%)");
+                                setbtngrayscale_tier3_2("grayscale(100%)");
+                            }
+                        }} style={{ filter: btnGrayscale_tier3_2 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
+                    </figure>
+                </Col>
+            </Row>
+            <Row>
+                <hr></hr>
+            </Row>
+        </Col>
           </div>
         </Collapse>
       </Col>
+      {/*******************End of Tripod********************************************/} 
       </Row>
   </div>
 }
