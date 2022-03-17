@@ -53,8 +53,15 @@ hr {
     color: white;
 }
 
-
-
 .dropdownMenu {
     z-index: 999999;
 }  
+
+/* .Tripod-img {
+    filter: grayscale(100%);
+}
+
+.Tripod-img-click{
+    filter: grayscale(0%);
+}
+ */

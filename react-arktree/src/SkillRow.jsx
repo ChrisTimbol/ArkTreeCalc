@@ -37,7 +37,7 @@ function SkillRow(props) {
       <Col sm='auto' xs={{ span: 3, order: 1 }} md={{span: 'auto', order: 1}} lg= {{span: 'auto', order: 1}} className="img-container my-auto">
         <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
       </Col>                                                                                      
-      <Col sm='3' xs={{ span: 9, order: 2 }} md={{span: 3, order: 2}} lg='5'  className="SkillCard_skill_container my-auto ">
+      <Col sm='3' xs={{ span: 9, order: 2 }} md={{span: 3, order: 2}} lg='4'  className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
           <Col className="SkillCard_skill_type ">{props.skillType}</Col>
           <Col className="SkillCard_skill_name">{props.skillName}</Col>
@@ -76,7 +76,7 @@ function SkillRow(props) {
         </Stack>
       </Col>
 
-      <Col xs={{ span: 3, order: 5}} md={{span: 1, order: 5}} lg = '1' className="img-tripod-container my-auto  d-flex justify-content-center" >
+      <Col xs={{ span: 3, order: 5}} md={{span: 1, order: 5}} lg = '1' className="img-tripod-container my-auto d-flex  justify-content-center " >
         <Image src={require("./images/tripod.png")} className="tripod-img" width="50px " ></Image>
       </Col>
     </Row>
