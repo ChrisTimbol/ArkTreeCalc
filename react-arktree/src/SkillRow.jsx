@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 import TripodSkill from "./TripodSkills";
+import Collapse from 'react-bootstrap/Collapse'
 function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   if (skillCounter === 1 || skillCounter === 2) {
     return setReqCounter(reqCounter = 1);
@@ -24,16 +25,23 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
-
+  const [open, setOpen] = useState(false); // state opening different skill tripods
   useEffect(() => { // resets counters when switching Roles
     setSkillCounter(1); //initalize back to 1
     setReqCounter(1); // initalize back to 1
   }, [props.characterRole, props.reset]); // follows the state of characterRole , which is selected by RoleButton
   return <div>
 
-    <Row className="flex-nowrap">
-    <Col xs='7' md="7" lg="8" className="SkillRowColumn">
-        <Row onClick={() => { props.setSkillClicked(props.skillName) }} className="SkillCard mb-1  btn-outline-secondary">
+    <Row className= "flex-nowrap">
+     
+      <Col xs='7' md="7" lg="8" className="SkillRowColumn ">
+
+
+        
+        <Row onClick={() => {
+          props.setSkillClicked(props.skillName)
+          setOpen(!open)
+        }} aria-controls="example-collapse-text" aria-expanded={open} className="SkillCard mb-1  btn-outline-secondary ">
 
           <Col sm='auto' xs={{ span: 3, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto">
             <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
@@ -80,14 +88,18 @@ function SkillRow(props) {
           <Col xs={{ span: 3, order: 5 }} md={{ span: 1, order: 5 }} lg='1' className="img-tripod-container my-auto d-flex  justify-content-center " >
             <Image src={require("./images/tripod.png")} className="tripod-img" width="50px " ></Image>
           </Col>
-
-
         </Row>
       </Col>
-      <Col xs='5' md="3" lg="6" className="TripodColumn">
-        <TripodSkill skillClicked={props.skillClicked} />
+
+
+      <Col xs='5' md="3" lg="4" className="TripodColumn border border-primary ">
+        <Collapse in={open}> 
+          <div id="example-collapse-text">
+            <TripodSkill skillClicked={props.skillClicked} />
+          </div>
+        </Collapse>
       </Col>
-    </Row>
+      </Row>
   </div>
 }
 
