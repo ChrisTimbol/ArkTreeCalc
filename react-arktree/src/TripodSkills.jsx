@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
-import { artilleristSkillNameText } from './skillName';
 /* import createTripod from './createTripod'; */
 //import Container from 'react-bootstrap/Container';
 
 
-
+/* 
 function createTripod(skillClicked) {
     var defaultImg = require("./triportimages/Tripod_Tier_1_0.png");
     var defaultTripodName = "Skill"
@@ -174,14 +173,16 @@ function createTripod(skillClicked) {
         return [defaultImg, defaultTripodName];
     }
     return [skillImages, tripodName]
-}
+} */
 
 // Display tripod as grey until clicked
 // Coloring for Combo
 // stic
 
 
+
 function TripodSkill(props) {
+    //moved these states later for resetting when switching classes etc
     const [btnGrayscale_tier1_1, setbtngrayscale_tier1_1] = useState('grayscale(100%)');
     const [btnGrayscale_tier1_2, setbtngrayscale_tier1_2] = useState('grayscale(100%)');
     const [btnGrayscale_tier1_3, setbtngrayscale_tier1_3] = useState('grayscale(100%)');
@@ -190,9 +191,10 @@ function TripodSkill(props) {
     const [btnGrayscale_tier2_3, setbtngrayscale_tier2_3] = useState('grayscale(100%)');
     const [btnGrayscale_tier3_1, setbtngrayscale_tier3_1] = useState('grayscale(100%)');
     const [btnGrayscale_tier3_2, setbtngrayscale_tier3_2] = useState('grayscale(100%)');
+  
     return <>
-
-        <Col className="Triport_Container_Inside border border-dark sticky-top">
+        
+        <Col className="Triport_Container_Inside border border-dark sticky-top ">
             <Row >
                 <Col className="d-flex justify-content-center">
                     <Col className="tripodline-1 "></Col>
@@ -216,8 +218,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier1_2("grayscale(100%)");
                                 setbtngrayscale_tier1_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier1_1 }} src={createTripod(props.skillClicked)[0][0]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption ">{createTripod(props.skillClicked)[1][0]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier1_1 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption ">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
@@ -233,8 +235,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier1_2("grayscale(100%)");
                                 setbtngrayscale_tier1_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier1_2 }} src={createTripod(props.skillClicked)[0][1]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][1]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier1_2 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
@@ -250,8 +252,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier1_2("grayscale(100%)");
                                 setbtngrayscale_tier1_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier1_3 }} src={createTripod(props.skillClicked)[0][2]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][2]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier1_3 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
             </Row>
@@ -278,8 +280,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier2_2("grayscale(100%)");
                                 setbtngrayscale_tier2_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier2_1 }} src={createTripod(props.skillClicked)[0][3]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][3]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier2_1 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
@@ -295,8 +297,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier2_2("grayscale(100%)");
                                 setbtngrayscale_tier2_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier2_2 }}src={createTripod(props.skillClicked)[0][4]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][4]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier2_2 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
                 <Col className="Triport_Image_Col d-flex justify-content-center">
@@ -312,8 +314,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier2_2("grayscale(100%)");
                                 setbtngrayscale_tier2_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier2_3 }}src={createTripod(props.skillClicked)[0][5]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][5]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier2_3 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
             </Row>
@@ -338,8 +340,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier3_1("grayscale(100%)");
                                 setbtngrayscale_tier3_2("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier3_1 }}src={createTripod(props.skillClicked)[0][6]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][6]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier3_1 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
 
                 </Col>
@@ -355,8 +357,8 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier3_1("grayscale(100%)");
                                 setbtngrayscale_tier3_2("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier3_2 }}src={createTripod(props.skillClicked)[0][7]} className="Tripod-img " width='48' height='48'></Image>
-                        <figcaption className="figure-caption">{createTripod(props.skillClicked)[1][7]}</figcaption>
+                        }} style={{ filter: btnGrayscale_tier3_2 }}src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
+                        <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
             </Row>

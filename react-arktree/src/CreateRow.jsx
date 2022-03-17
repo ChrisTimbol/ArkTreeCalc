@@ -13,7 +13,7 @@ function importImages(r) {
   
 
 // Creates rows based on amount of images
-function CreateRow(characterRole, setSkillClicked, reset) {
+function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
     var skillTypeText; 
 
     // create and set SkillRow data 
@@ -26,7 +26,7 @@ function CreateRow(characterRole, setSkillClicked, reset) {
           skillTypeText = "Normal"
         }
         // pass setState/setSkillClicked as prop because it is generated dynamically
-        return <SkillRow  reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
+        return <SkillRow  skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
       })
   
     } else if (characterRole === "Bard") {

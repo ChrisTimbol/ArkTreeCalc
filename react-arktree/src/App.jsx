@@ -35,11 +35,11 @@ const App = () => {
             <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
           </Col>
           <Col xs='7' md="7" className="SkillRowColumn">
-            {CreateRow(characterRole, setSkillClicked, reset, setReset)}
+            {CreateRow(characterRole, setSkillClicked, reset, setReset, skillClicked)}
           </Col>
-          <Col xs='5' md="3" className="TripodColumn">
+{/*           <Col xs='5' md="3" className="TripodColumn">
             <TripodSkill  skillClicked={skillClicked} />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>
