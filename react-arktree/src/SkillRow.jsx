@@ -5,7 +5,11 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 import TripodSkill from "./TripodSkills";
-import Collapse from 'react-bootstrap/Collapse'
+import Collapse from 'react-bootstrap/Collapse';
+import blanktripod from './images/tripod.png';
+import tripod1 from './images/tripod-1.png';
+import tripod2 from './images/tripod-2.png';
+import tripod3 from './images/tripod-3.png';
 function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   if (skillCounter === 1 || skillCounter === 2) {
     return setReqCounter(reqCounter = 1);
@@ -22,6 +26,24 @@ function reqPointChange(skillCounter, reqCounter, setReqCounter) {
   }
 }
 
+//adds color to tripod based on selection of tripod tree skills
+function selectTier1Image(btnGrayscale_tier1_1, btnGrayscale_tier1_2, btnGrayscale_tier1_3, btnGrayscale_tier2_1, btnGrayscale_tier2_2, btnGrayscale_tier2_3, btnGrayscale_tier3_1, btnGrayscale_tier3_2 ) {
+  var whatTripod;
+  if (btnGrayscale_tier3_1 === 'grayscale(0%)' || btnGrayscale_tier3_2 === 'grayscale(0%)') {
+    whatTripod = tripod3
+  }
+   else if (btnGrayscale_tier2_1 === 'grayscale(0%)' || btnGrayscale_tier2_2 === 'grayscale(0%)'|| btnGrayscale_tier2_3 === 'grayscale(0%)') {
+    whatTripod = tripod2
+  } 
+  else if (btnGrayscale_tier1_1 === 'grayscale(0%)' || btnGrayscale_tier1_2 === 'grayscale(0%)'|| btnGrayscale_tier1_3 === 'grayscale(0%)'){
+    whatTripod = tripod1
+  }
+  else {
+      whatTripod = blanktripod
+  }
+  return  <Image src={whatTripod} className="tripod-img" width="50px " ></Image>
+}
+
 function SkillRow(props) {
   const [skillCounter, setSkillCounter] = useState(1);
   const [reqCounter, setReqCounter] = useState(1);
@@ -32,8 +54,15 @@ function SkillRow(props) {
   }, [props.characterRole, props.reset]); // follows the state of characterRole , which is selected by RoleButton
 
   /**Tripod states */
-
-
+  const [btnGrayscale_tier1_1, setbtngrayscale_tier1_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier1_2, setbtngrayscale_tier1_2] = useState('grayscale(100%)');
+  const [btnGrayscale_tier1_3, setbtngrayscale_tier1_3] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_1, setbtngrayscale_tier2_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_2, setbtngrayscale_tier2_2] = useState('grayscale(100%)');
+  const [btnGrayscale_tier2_3, setbtngrayscale_tier2_3] = useState('grayscale(100%)');
+  const [btnGrayscale_tier3_1, setbtngrayscale_tier3_1] = useState('grayscale(100%)');
+  const [btnGrayscale_tier3_2, setbtngrayscale_tier3_2] = useState('grayscale(100%)');
+  /***********/
   return <div>
 
           <Row aria-expanded={open} className="SkillCard mb-1 btn-outline-secondary">
@@ -94,12 +123,16 @@ function SkillRow(props) {
             </Col>
 
             <Col xs={{ span: 2, order: 5 }} md={{ span: 1, order: 5 }} lg='1' className="img-tripod-container mx-auto my-auto d-flex  justify-content-center" >
-              <Image src={require("./images/tripod.png")} className="tripod-img" width="50px " ></Image>
+            {selectTier1Image(btnGrayscale_tier1_1, btnGrayscale_tier1_2, btnGrayscale_tier1_3, btnGrayscale_tier2_1, btnGrayscale_tier2_2, btnGrayscale_tier2_3, btnGrayscale_tier3_1, btnGrayscale_tier3_2 )}
             </Col>
           </Row >
         <Collapse in={open} className=" mb-3 ">
           <Row>
-            <TripodSkill skillClicked={props.skillName} />
+            <TripodSkill skillClicked={props.skillName} btnGrayscale_tier1_1={btnGrayscale_tier1_1} btnGrayscale_tier1_2={btnGrayscale_tier1_2} btnGrayscale_tier1_3={btnGrayscale_tier1_3}
+            btnGrayscale_tier2_1={btnGrayscale_tier2_1} btnGrayscale_tier2_2={btnGrayscale_tier2_2} btnGrayscale_tier2_3={btnGrayscale_tier2_3} btnGrayscale_tier3_1={btnGrayscale_tier3_1}
+            btnGrayscale_tier3_2={btnGrayscale_tier3_2} setbtngrayscale_tier1_1={setbtngrayscale_tier1_1} setbtngrayscale_tier1_2={setbtngrayscale_tier1_2} setbtngrayscale_tier1_3={setbtngrayscale_tier1_3} setbtngrayscale_tier2_1={setbtngrayscale_tier2_1} setbtngrayscale_tier2_2={setbtngrayscale_tier2_2} setbtngrayscale_tier2_3={setbtngrayscale_tier2_3} 
+            setbtngrayscale_tier3_1={setbtngrayscale_tier3_1} setbtngrayscale_tier3_2={setbtngrayscale_tier3_2} 
+            />
           </Row>
         </Collapse>
   
