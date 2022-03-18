@@ -37,9 +37,6 @@ const App = () => {
           <Col xs='7' md="7" className="SkillRowColumn">
             {CreateRow(characterRole, setSkillClicked, reset, setReset, skillClicked)}
           </Col>
-{/*           <Col xs='5' md="3" className="TripodColumn">
-            <TripodSkill  skillClicked={skillClicked} />
-          </Col> */}
         </Row>
       </Container>
     </div>

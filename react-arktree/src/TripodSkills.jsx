@@ -179,8 +179,6 @@ function createTripod(skillClicked) {
 // Coloring for Combo
 // stic
 
-
-
 function TripodSkill(props) {
     //moved these states later for resetting when switching classes etc
     const [btnGrayscale_tier1_1, setbtngrayscale_tier1_1] = useState('grayscale(100%)');
@@ -193,8 +191,7 @@ function TripodSkill(props) {
     const [btnGrayscale_tier3_2, setbtngrayscale_tier3_2] = useState('grayscale(100%)');
   
     return <>
-        
-        <Col className="Triport_Container_Inside border border-dark ">
+       <Col className="Triport_Container_Inside border border-dark ">
             <Row >
                 <Col className="d-flex justify-content-center">
                     <Col className="tripodline-1 "></Col>
@@ -219,7 +216,7 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier1_2("grayscale(100%)");
                                 setbtngrayscale_tier1_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier1_1 }} src={createTripod(props.skillClicked)[0]} className="Tripod-img " width='48' height='48'></Image>
+                        }} style={{ filter: btnGrayscale_tier1_1 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
                         <figcaption className="figure-caption ">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
@@ -236,7 +233,7 @@ function TripodSkill(props) {
                                 setbtngrayscale_tier1_2("grayscale(100%)");
                                 setbtngrayscale_tier1_3("grayscale(100%)");
                             }
-                        }} style={{ filter: btnGrayscale_tier1_2 }} src={createTripod(props.skillClicked)[0]} className="Tripod-img " width='48' height='48'></Image>
+                        }} style={{ filter: btnGrayscale_tier1_2 }} src={require("./triportimages/Tripod_Tier_1_98.png")} className="Tripod-img " width='48' height='48'></Image>
                         <figcaption className="figure-caption">{"SkillName"}</figcaption>
                     </figure>
                 </Col>
@@ -366,7 +363,8 @@ function TripodSkill(props) {
             <Row>
                 <hr></hr>
             </Row>
-        </Col>
+            </Col>
+  
     </>
 }
 export default TripodSkill;
