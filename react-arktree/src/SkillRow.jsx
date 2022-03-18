@@ -38,19 +38,18 @@ function SkillRow(props) {
 
           <Row aria-expanded={open} className="SkillCard mb-1 btn-outline-secondary">
 
-            <Col sm='auto' xs={{ span: 3, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto">
+            <Col sm='auto' xs={{ span: 2, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto ">
               <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
             </Col>
-              {/* onclick on col's makes Name/Points the only clickable area to open tripod*/}
+              {/* onClick on col's makes Name/Points the only clickable area to open tripod*/}
             <Col onClick={() => {
             props.setSkillClicked(props.skillName)
             console.log(props.skillName)
             setOpen(!open)
-
-          }} aria-controls="example-collapse-text" sm='3' xs={{ span: 9, order: 2 }} md={{ span: 3, order: 2 }} lg='4' className="SkillCard_skill_container my-auto ">
+          }} aria-controls="example-collapse-text" sm='3' xs={{ span: 3, order: 2 }} md={{ span: 3, order: 2 }} lg='4' className="SkillCard_skill_container my-auto ">
               <Stack className="SkillCard_skill" >
-                <Col className="SkillCard_skill_type ">{props.skillType}</Col>
-                <Col className="SkillCard_skill_name">{props.skillName}</Col>
+                <Col className="SkillCard_skill_type small ">{props.skillType}</Col>
+                <Col className="SkillCard_skill_name h6">{props.skillName}</Col>
               </Stack>
             </Col>
           
@@ -58,27 +57,25 @@ function SkillRow(props) {
             props.setSkillClicked(props.skillName)
             console.log(props.skillName)
             setOpen(!open)
-
-          }} aria-controls="example-collapse-text" sm='auto' xs={{ span: 3, order: 3 }} md={{ span: 2, order: 3 }} lg='2' className="SkillCard_reqtype text-center my-auto ">
+          }} aria-controls="example-collapse-text" sm='auto' xs={{ span: 1, order: 3 }} md={{ span: 2, order: 3 }} lg='2' className="SkillCard_reqtype text-center mx-auto my-auto ">
               <Stack gap='1'>
-                <Col className="SkillCard_reqtype_point  ">{reqCounter}</Col>
-                <Col className="SkillCard_reqtype_text h6">Req. Points</Col>
+                <Col className="SkillCard_reqtype_point ">{reqCounter}</Col>
+                <Col className="SkillCard_reqtype_text h6 small ">Req. Points</Col>
               </Stack>
             </Col>
 
             <Col onClick={() => {
             props.setSkillClicked(props.skillName)
             console.log(props.skillName)
-            setOpen(!open)
-
-          }} aria-controls="example-collapse-text" sm='auto' xs={{ span: 3, order: 4 }} md={{ span: 2, order: 4 }} lg='2' className="SkillCard_lvltype text-center my-auto  ">
+            setOpen(!open) 
+            }} aria-controls="example-collapse-text" sm='auto' xs={{ span: 1, order: 4 }} md={{ span: 2, order: 4 }} lg='2' className="SkillCard_lvltype text-center mx-auto my-auto  ">
               <Stack gap='1'>
                 <Col className="SkillCard_lvltype_point">{skillCounter}</Col>
-                <Col className="SkillCard_lvltype_text h6">Skill Lv.</Col>
+                <Col className="SkillCard_lvltype_text h6 small">Skill Lv.</Col>
               </Stack>
             </Col>
 
-            <Col xs={{ span: 3, order: 5 }} md={{ span: 2, order: 5 }} lg='1' className="SkillCard_buttons_container my-auto">
+            <Col xs={{ span: 2, order: 5 }} md={{ span: 1, order: 5 }} lg='1' className="SkillCard_buttons_container my-auto">
               <Stack >
                 <Button size='sm' onClick={() => {
                   if (skillCounter < 10) {
@@ -96,7 +93,7 @@ function SkillRow(props) {
               </Stack>
             </Col>
 
-            <Col xs={{ span: 3, order: 5 }} md={{ span: 1, order: 5 }} lg='1' className="img-tripod-container my-auto d-flex  justify-content-center " >
+            <Col xs={{ span: 2, order: 5 }} md={{ span: 1, order: 5 }} lg='1' className="img-tripod-container mx-auto my-auto d-flex  justify-content-center" >
               <Image src={require("./images/tripod.png")} className="tripod-img" width="50px " ></Image>
             </Col>
           </Row >

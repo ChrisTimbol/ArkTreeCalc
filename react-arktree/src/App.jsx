@@ -28,16 +28,13 @@ const App = () => {
 
       <Container fluid className="Book_Of_Coordination  ">
         <Row className="NavBar">NavBar</Row>
-        <Row className="rowContainer_for_positioning">
-          <Col sm='1' md="1" className="SideBar  d-flex justify-content-end mb-1">
+          <Col  className="SideBar  d-flex justify-content-end mb-1">
             <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button ">⟲</Button> 
-
             <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
           </Col>
-          <Col xs='7' md="7" className="SkillRowColumn">
+          <Col xs='12' md="10" className="SkillRowColumn">
             {CreateRow(characterRole, setSkillClicked, reset, setReset, skillClicked)}
           </Col>
-        </Row>
       </Container>
     </div>
   );
