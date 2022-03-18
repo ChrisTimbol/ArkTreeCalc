@@ -175,6 +175,7 @@ function createTripod(skillClicked) {
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
+    
     else {
         return [defaultImg, defaultTripodName];
     }

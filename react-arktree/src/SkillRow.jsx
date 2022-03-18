@@ -51,6 +51,16 @@ function SkillRow(props) {
   useEffect(() => { // resets counters when switching Roles
     setSkillCounter(1); //initalize back to 1
     setReqCounter(1); // initalize back to 1
+    setbtngrayscale_tier1_1('grayscale(100%)');
+    setbtngrayscale_tier1_2('grayscale(100%)');
+    setbtngrayscale_tier1_3('grayscale(100%)');
+    setbtngrayscale_tier2_1('grayscale(100%)');
+    setbtngrayscale_tier2_2('grayscale(100%)');
+    setbtngrayscale_tier2_3('grayscale(100%)');
+    setbtngrayscale_tier3_1('grayscale(100%)');
+    setbtngrayscale_tier3_2('grayscale(100%)');
+  
+
   }, [props.characterRole, props.reset]); // follows the state of characterRole , which is selected by RoleButton
 
   /**Tripod states */
@@ -110,6 +120,7 @@ function SkillRow(props) {
                   if (skillCounter < 10) {
                     setSkillCounter(skillCounter + 1);
                     reqPointChange(skillCounter, reqCounter, setReqCounter);
+                    props.setOverallCount(props.overallCount + 1)
                   }
                 }} className="SkillCard_buttons_plus fw-bold border border-dark d-flex justify-content-center">+</Button>
 
@@ -117,6 +128,7 @@ function SkillRow(props) {
                   if (skillCounter > 1) {
                     setSkillCounter(skillCounter - 1);
                     reqPointChange(skillCounter, reqCounter, setReqCounter);
+                    props.setOverallCount(props.overallCount - 1)
                   }
                 }} className="SkillCard_buttons_minus fw-bold border border-dark d-flex justify-content-center">-</Button>
               </Stack>

@@ -13,7 +13,7 @@ function importImages(r) {
   
 
 // Creates rows based on amount of images
-function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
+function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount) {
     var skillTypeText; 
 
     // create and set SkillRow data 
@@ -26,7 +26,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
           skillTypeText = "Normal"
         }
         // pass setState/setSkillClicked as prop because it is generated dynamically
-        return <SkillRow  skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
+        return <SkillRow  overallCount = {overallCount} setOverallCount={setOverallCount} skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
       })
   
     } else if (characterRole === "Bard") {
@@ -39,7 +39,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={bardImages[image]} skillType={skillTypeText} skillName={bardSkillNameText[index]} />
+        return <SkillRow  overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={bardImages[image]} skillType={skillTypeText} skillName={bardSkillNameText[index]} />
       })
   
     } else if (characterRole === "Berserker") {
@@ -54,7 +54,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={berserkerImages[image]} skillType={skillTypeText} skillName={berserkerSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={berserkerImages[image]} skillType={skillTypeText} skillName={berserkerSkillNameText[index]} />
       })
   
     } else if (characterRole === "Deadeye") {
@@ -69,7 +69,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={deadeyeImages[image]} skillType={skillTypeText} skillName={deadeyeSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={deadeyeImages[image]} skillType={skillTypeText} skillName={deadeyeSkillNameText[index]} />
       })
   
     } else if (characterRole === "Deathblade") {
@@ -86,7 +86,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={deathbladeImages[image]} skillType={skillTypeText} skillName={deathbladeSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={deathbladeImages[image]} skillType={skillTypeText} skillName={deathbladeSkillNameText[index]} />
       })
   
     } else if (characterRole === "Gunlancer") {
@@ -101,7 +101,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={gunlancerImages[image]} skillType={skillTypeText} skillName={gunlancerSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={gunlancerImages[image]} skillType={skillTypeText} skillName={gunlancerSkillNameText[index]} />
       })
   
     } else if (characterRole === "Gunslinger") {
@@ -114,7 +114,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={gunslingerImages[image]} skillType={skillTypeText} skillName={gunslingerSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={gunslingerImages[image]} skillType={skillTypeText} skillName={gunslingerSkillNameText[index]} />
       })
   
     } else if (characterRole === "Paladin") {
@@ -130,7 +130,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={paladinImages[image]} skillType={skillTypeText} skillName={paladinSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={paladinImages[image]} skillType={skillTypeText} skillName={paladinSkillNameText[index]} />
       })
   
     } else if (characterRole === "Scrapper") {
@@ -146,7 +146,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={scrapperImages[image]} skillType={skillTypeText} skillName={scrapperSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={scrapperImages[image]} skillType={skillTypeText} skillName={scrapperSkillNameText[index]} />
       })
   
     } else if (characterRole === "Shadowhunter") {
@@ -159,7 +159,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={shadowhunterImages[image]} skillType={skillTypeText} skillName={shadowhunterSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={shadowhunterImages[image]} skillType={skillTypeText} skillName={shadowhunterSkillNameText[index]} />
       })
   
     } else if (characterRole === "Sharpshooter") {
@@ -172,7 +172,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={sharpshooterImages[image]} skillType={skillTypeText} skillName={sharpshooterSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={sharpshooterImages[image]} skillType={skillTypeText} skillName={sharpshooterSkillNameText[index]} />
       })
     } else if (characterRole === "Sorceress") {
       const sorceressImages = importImages(require.context('../src/images/Sorceress', false, /\.(png)$/));
@@ -188,7 +188,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={sorceressImages[image]} skillType={skillTypeText} skillName={sorceressSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={sorceressImages[image]} skillType={skillTypeText} skillName={sorceressSkillNameText[index]} />
       })
   
     } else if (characterRole === "Soulfist") {
@@ -201,7 +201,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={soulfistImages[image]} skillType={skillTypeText} skillName={soulfistSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={soulfistImages[image]} skillType={skillTypeText} skillName={soulfistSkillNameText[index]} />
       })
   
     } else if (characterRole === "Striker") {
@@ -216,7 +216,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={strikerImages[image]} skillType={skillTypeText} skillName={strikerSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={strikerImages[image]} skillType={skillTypeText} skillName={strikerSkillNameText[index]} />
       })
   
     } else if (characterRole === "Wardancer") {
@@ -229,7 +229,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked) {
         } else {
           skillTypeText = "Normal"
         }
-        return <SkillRow reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={wardancerImages[image]} skillType={skillTypeText} skillName={wardancerSkillNameText[index]} />
+        return <SkillRow overallCount = {overallCount} setOverallCount={setOverallCount} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]}  skillImage={wardancerImages[image]} skillType={skillTypeText} skillName={wardancerSkillNameText[index]} />
       })
     }
   }
