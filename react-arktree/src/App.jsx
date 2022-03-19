@@ -21,10 +21,8 @@ const App = () => {
   const [characterRole, setCharacterRole] = useState('Artillerist');  //set by roleButton game class selector
   const [skillClicked, setSkillClicked] = useState("Enhanced Shell"); // move this 
   const [reset, setReset] = useState(1);
-  const [overallCount, setOverallCount] = useState(0);
-  useEffect(() => {
-    setOverallCount(0);
-  },[characterRole, reset])
+  const [overallCount, setOverallCount] = useState(340);
+
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
@@ -41,6 +39,7 @@ const App = () => {
           </Col>
           <Col xs='12' md="10" className="SkillRowColumn">
             {CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount)}
+            
           </Col>
       </Container>
     </div>
