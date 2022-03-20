@@ -1516,945 +1516,945 @@ function createTripod(skillClicked) {
             "EMP Explosion", "Power Bomb")
     } // End of Scrapper
     else if (skillClicked === "Demonic Slash") { // Start of Shadowhunter //start
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_26.png"), require("./triportimages/Tripod_Tier_1_0.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_11.png"),
+            require("./triportimages/Tripod_Tier_3_38.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Nimble Cut") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_60.png"),
+            require("./triportimages/Tripod_Tier_2_17.png"), require("./triportimages/Tripod_Tier_2_15.png"), require("./triportimages/Tripod_Tier_2_19.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_102.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Slasher") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_45.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_49.png"),
+            require("./triportimages/Tripod_Tier_3_40.png"), require("./triportimages/Tripod_Tier_3_17.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Brutal Cross") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_15.png"), require("./triportimages/Tripod_Tier_1_19.png"),
+            require("./triportimages/Tripod_Tier_2_69.png"), require("./triportimages/Tripod_Tier_2_20.png"), require("./triportimages/Tripod_Tier_2_4.png"),
+            require("./triportimages/Tripod_Tier_3_50.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Demon's Grip") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_103.png"), require("./triportimages/Tripod_Tier_2_2.png"),
+            require("./triportimages/Tripod_Tier_3_7.png"), require("./triportimages/Tripod_Tier_3_52.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Rising Claw") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_23.png"), require("./triportimages/Tripod_Tier_1_33.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Piercing Thorn") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_45.png"), require("./triportimages/Tripod_Tier_1_0.png"),
+            require("./triportimages/Tripod_Tier_2_45.png"), require("./triportimages/Tripod_Tier_2_85.png"), require("./triportimages/Tripod_Tier_2_56.png"),
+            require("./triportimages/Tripod_Tier_3_62.png"), require("./triportimages/Tripod_Tier_3_7.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Demon Vision") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_42.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_17.png"), require("./triportimages/Tripod_Tier_2_19.png"), require("./triportimages/Tripod_Tier_2_103.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Grind Chain") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_0.png"), require("./triportimages/Tripod_Tier_1_15.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_26.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Spinning Dive") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_29.png"),
+            require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_26.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Howl") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_51.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_103.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_2.png"), require("./triportimages/Tripod_Tier_3_7.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Cruel Cutter") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_11.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_45.png"),
+            require("./triportimages/Tripod_Tier_2_17.png"), require("./triportimages/Tripod_Tier_2_15.png"), require("./triportimages/Tripod_Tier_2_58.png"),
+            require("./triportimages/Tripod_Tier_3_84.png"), require("./triportimages/Tripod_Tier_3_102.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Thrust Impact") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_41.png"),
+            require("./triportimages/Tripod_Tier_2_44.png"), require("./triportimages/Tripod_Tier_2_9.png"), require("./triportimages/Tripod_Tier_2_8.png"),
+            require("./triportimages/Tripod_Tier_3_103.png"), require("./triportimages/Tripod_Tier_3_0.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Demonic Clone") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_45.png"), require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_23.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_81.png"), require("./triportimages/Tripod_Tier_2_40.png"),
+            require("./triportimages/Tripod_Tier_3_103.png"), require("./triportimages/Tripod_Tier_3_104.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Demolition") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_33.png"),
+            require("./triportimages/Tripod_Tier_2_20.png"), require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_41.png"),
+            require("./triportimages/Tripod_Tier_3_102.png"), require("./triportimages/Tripod_Tier_3_10.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Spinning Weapon") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_45.png"), require("./triportimages/Tripod_Tier_1_11.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_51.png"), require("./triportimages/Tripod_Tier_2_62.png"), require("./triportimages/Tripod_Tier_2_40.png"),
+            require("./triportimages/Tripod_Tier_3_2.png"), require("./triportimages/Tripod_Tier_3_102.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Decimate") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_45.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_104.png"), require("./triportimages/Tripod_Tier_2_4.png"),
+            require("./triportimages/Tripod_Tier_3_78.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sharpened Cut") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_39.png"), require("./triportimages/Tripod_Tier_1_0.png"),
+            require("./triportimages/Tripod_Tier_2_45.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_27.png"),
+            require("./triportimages/Tripod_Tier_3_49.png"), require("./triportimages/Tripod_Tier_3_61.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     } // End of Shadowhunter
     else if (skillClicked === "Rapid Shot") { // start of sharpshooter
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_84.png"),
+            require("./triportimages/Tripod_Tier_2_54.png"), require("./triportimages/Tripod_Tier_2_17.png"), require("./triportimages/Tripod_Tier_2_11.png"),
+            require("./triportimages/Tripod_Tier_3_4.png"), require("./triportimages/Tripod_Tier_3_8.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Salvo") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_61.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_11.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_30.png"),
+            require("./triportimages/Tripod_Tier_3_74.png"), require("./triportimages/Tripod_Tier_3_0.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Atomic Arrow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_97.png"),
+            require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_4.png"),
+            require("./triportimages/Tripod_Tier_3_17.png"), require("./triportimages/Tripod_Tier_3_78.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Electric Nova") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_52.png"),
+            require("./triportimages/Tripod_Tier_2_44.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_7.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Smokescreen Arrow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_52.png"),
+            require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_46.png"), require("./triportimages/Tripod_Tier_2_45.png"),
+            require("./triportimages/Tripod_Tier_3_7.png"), require("./triportimages/Tripod_Tier_3_85.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Arrow Wave") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_0.png"), require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_51.png"), require("./triportimages/Tripod_Tier_2_6.png"), require("./triportimages/Tripod_Tier_2_7.png"),
+            require("./triportimages/Tripod_Tier_3_87.png"), require("./triportimages/Tripod_Tier_3_8.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Arrow Shower") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_26.png"),
+            require("./triportimages/Tripod_Tier_2_8.png"), require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_4.png"), require("./triportimages/Tripod_Tier_3_58.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Charged Shot") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_27.png"), require("./triportimages/Tripod_Tier_1_74.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_54.png"), require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_41.png"),
+            require("./triportimages/Tripod_Tier_3_87.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Evasive Fire") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_11.png"), require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_0.png"),
+            require("./triportimages/Tripod_Tier_3_9.png"), require("./triportimages/Tripod_Tier_3_8.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sharp Shooter") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_54.png"), require("./triportimages/Tripod_Tier_2_45.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_58.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "DM-42") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_61.png"), require("./triportimages/Tripod_Tier_1_22.png"),
+            require("./triportimages/Tripod_Tier_2_52.png"), require("./triportimages/Tripod_Tier_2_30.png"), require("./triportimages/Tripod_Tier_2_7.png"),
+            require("./triportimages/Tripod_Tier_3_13.png"), require("./triportimages/Tripod_Tier_3_38.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Deadly Slash") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_36.png"), require("./triportimages/Tripod_Tier_1_4.png"),
+            require("./triportimages/Tripod_Tier_2_46.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_45.png"),
+            require("./triportimages/Tripod_Tier_3_40.png"), require("./triportimages/Tripod_Tier_3_74.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Moving Slash") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_12.png"), require("./triportimages/Tripod_Tier_1_10.png"),
+            require("./triportimages/Tripod_Tier_2_60.png"), require("./triportimages/Tripod_Tier_2_36.png"), require("./triportimages/Tripod_Tier_2_61.png"),
+            require("./triportimages/Tripod_Tier_3_26.png"), require("./triportimages/Tripod_Tier_3_0.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Blade Storm") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_36.png"),
+            require("./triportimages/Tripod_Tier_2_45.png"), require("./triportimages/Tripod_Tier_2_49.png"), require("./triportimages/Tripod_Tier_2_26.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_88.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Claymore Mine") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_46.png"), require("./triportimages/Tripod_Tier_1_9.png"),
+            require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_17.png"), require("./triportimages/Tripod_Tier_2_13.png"),
+            require("./triportimages/Tripod_Tier_3_7.png"), require("./triportimages/Tripod_Tier_3_8.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Shadow Arrow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_83.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_46.png"),
+            require("./triportimages/Tripod_Tier_3_84.png"), require("./triportimages/Tripod_Tier_3_54.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Stalker") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_12.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_10.png"),
+            require("./triportimages/Tripod_Tier_2_11.png"), require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_17.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Snipe") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_52.png"),
+            require("./triportimages/Tripod_Tier_2_72.png"), require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_74.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     } // End of sharpshooter
     else if (skillClicked === "Blaze") { // Start of Sorceress
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_83.png"), require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_81.png"),
+            require("./triportimages/Tripod_Tier_3_33.png"), require("./triportimages/Tripod_Tier_3_61.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Vortex") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_11.png"), require("./triportimages/Tripod_Tier_2_51.png"),
+            require("./triportimages/Tripod_Tier_3_83.png"), require("./triportimages/Tripod_Tier_3_81.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Ice Shower") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_1.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_23.png"),
+            require("./triportimages/Tripod_Tier_3_53.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Inferno") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_81.png"), require("./triportimages/Tripod_Tier_1_22.png"),
+            require("./triportimages/Tripod_Tier_2_85.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_83.png"),
+            require("./triportimages/Tripod_Tier_3_53.png"), require("./triportimages/Tripod_Tier_3_41.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Energy Discharge") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_79.png"),
+            require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Rime Arrow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_3.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_23.png"),
+            require("./triportimages/Tripod_Tier_3_53.png"), require("./triportimages/Tripod_Tier_3_81.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Reaction") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_79.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_1.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_49.png"),
+            require("./triportimages/Tripod_Tier_3_81.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Pushing Strike") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_54.png"), require("./triportimages/Tripod_Tier_2_81.png"), require("./triportimages/Tripod_Tier_2_53.png"),
+            require("./triportimages/Tripod_Tier_3_130.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Reverse Gravity") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_85.png"),
+            require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_33.png"), require("./triportimages/Tripod_Tier_3_61.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Elegian's Touch") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_79.png"), require("./triportimages/Tripod_Tier_1_40.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_11.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_37.png"),
+            require("./triportimages/Tripod_Tier_3_36.png"), require("./triportimages/Tripod_Tier_3_34.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Bolt") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_27.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_1.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_4.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Squall") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_79.png"), require("./triportimages/Tripod_Tier_3_7.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Seraphic Hail") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_37.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_81.png"),
+            require("./triportimages/Tripod_Tier_3_33.png"), require("./triportimages/Tripod_Tier_3_13.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Explosion") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_61.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_81.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_130.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Frost's Call") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_37.png"),
+            require("./triportimages/Tripod_Tier_2_38.png"), require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_52.png"),
+            require("./triportimages/Tripod_Tier_3_1.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Doomsday") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_52.png"),
+            require("./triportimages/Tripod_Tier_2_85.png"), require("./triportimages/Tripod_Tier_2_1.png"), require("./triportimages/Tripod_Tier_2_53.png"),
+            require("./triportimages/Tripod_Tier_3_130.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     } // end of sorceress
     else if (skillClicked === "Energy Blast") { // Start of Soulfist
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_69.png"), require("./triportimages/Tripod_Tier_1_33.png"),
+            require("./triportimages/Tripod_Tier_2_52.png"), require("./triportimages/Tripod_Tier_2_86.png"), require("./triportimages/Tripod_Tier_2_23.png"),
+            require("./triportimages/Tripod_Tier_3_41.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Venomous Fist") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_80.png"), require("./triportimages/Tripod_Tier_1_35.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_2.png"), require("./triportimages/Tripod_Tier_2_39.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Palm") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_50.png"), require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_21.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_13.png"),
+            require("./triportimages/Tripod_Tier_3_41.png"), require("./triportimages/Tripod_Tier_3_0.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Energy Bullet") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_80.png"), require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_47.png"),
+            require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_58.png"), require("./triportimages/Tripod_Tier_2_82.png"),
+            require("./triportimages/Tripod_Tier_3_42.png"), require("./triportimages/Tripod_Tier_3_62.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Palm Burst") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_69.png"),
+            require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_38.png"), require("./triportimages/Tripod_Tier_3_71.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Heavenly Squash") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_80.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_52.png"),
+            require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_13.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_81.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Crippling Barrier") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_25.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_35.png"),
+            require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_80.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_71.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Magnetic Palm") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_25.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_36.png"),
+            require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_41.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_13.png"), require("./triportimages/Tripod_Tier_3_14.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Pulverizing Palm") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_41.png"),
+            require("./triportimages/Tripod_Tier_2_96.png"), require("./triportimages/Tripod_Tier_2_50.png"), require("./triportimages/Tripod_Tier_2_7.png"),
+            require("./triportimages/Tripod_Tier_3_38.png"), require("./triportimages/Tripod_Tier_3_71.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Tempest Blast") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_44.png"),
+            require("./triportimages/Tripod_Tier_2_41.png"), require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_62.png"),
+            require("./triportimages/Tripod_Tier_3_78.png"), require("./triportimages/Tripod_Tier_3_52.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Shadowbreaker") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_32.png"), require("./triportimages/Tripod_Tier_1_77.png"),
+            require("./triportimages/Tripod_Tier_2_29.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_71.png"), require("./triportimages/Tripod_Tier_3_7.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Merciless Pummel") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_80.png"), require("./triportimages/Tripod_Tier_1_47.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_8.png"),
+            require("./triportimages/Tripod_Tier_3_13.png"), require("./triportimages/Tripod_Tier_3_88.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Bolting Crash") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_60.png"), require("./triportimages/Tripod_Tier_1_80.png"), require("./triportimages/Tripod_Tier_1_10.png"),
+            require("./triportimages/Tripod_Tier_2_96.png"), require("./triportimages/Tripod_Tier_2_29.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Force Orb") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_80.png"),
+            require("./triportimages/Tripod_Tier_2_53.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_0.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_87.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Flash Step") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_51.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_10.png"),
+            require("./triportimages/Tripod_Tier_2_48.png"), require("./triportimages/Tripod_Tier_2_25.png"), require("./triportimages/Tripod_Tier_2_50.png"),
+            require("./triportimages/Tripod_Tier_3_0.png"), require("./triportimages/Tripod_Tier_3_35.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Energy Release") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_96.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_24.png"), require("./triportimages/Tripod_Tier_2_23.png"),
+            require("./triportimages/Tripod_Tier_3_50.png"), require("./triportimages/Tripod_Tier_3_0.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Deadly Finger") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_41.png"),
+            require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_13.png"), require("./triportimages/Tripod_Tier_2_29.png"),
+            require("./triportimages/Tripod_Tier_3_87.png"), require("./triportimages/Tripod_Tier_3_54.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     } // Soulfist End
     else if (skillClicked === "Esoteric Skill: Blast Formation") { // start of Striker
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_0.png"), require("./triportimages/Tripod_Tier_1_93.png"),
+            require("./triportimages/Tripod_Tier_2_36.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_13.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Spiral Impact") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_71.png"),
+            require("./triportimages/Tripod_Tier_2_6.png"), require("./triportimages/Tripod_Tier_2_36.png"), require("./triportimages/Tripod_Tier_2_16.png"),
+            require("./triportimages/Tripod_Tier_3_0.png"), require("./triportimages/Tripod_Tier_3_44.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Tiger Emerges") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_23.png"), require("./triportimages/Tripod_Tier_1_25.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_19.png"), require("./triportimages/Tripod_Tier_2_28.png"), require("./triportimages/Tripod_Tier_2_80.png"),
+            require("./triportimages/Tripod_Tier_3_58.png"), require("./triportimages/Tripod_Tier_3_129.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Flash Heat Fang") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_18.png"), require("./triportimages/Tripod_Tier_1_19.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_50.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sleeping Ascent Celebration") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_4.png"),
+            require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_16.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_9.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Whisper") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_97.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_37.png"),
+            require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_8.png"), require("./triportimages/Tripod_Tier_2_51.png"),
+            require("./triportimages/Tripod_Tier_3_45.png"), require("./triportimages/Tripod_Tier_3_61.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Berserk Circle") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_71.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_40.png"),
+            require("./triportimages/Tripod_Tier_3_22.png"), require("./triportimages/Tripod_Tier_3_78.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Lightning Tiger Strike") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_36.png"), require("./triportimages/Tripod_Tier_1_28.png"), require("./triportimages/Tripod_Tier_1_56.png"),
+            require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_23.png"), require("./triportimages/Tripod_Tier_2_21.png"),
+            require("./triportimages/Tripod_Tier_3_42.png"), require("./triportimages/Tripod_Tier_3_38.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Call the Wind God") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_15.png"), require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_17.png"),
+            require("./triportimages/Tripod_Tier_2_58.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_11.png"),
+            require("./triportimages/Tripod_Tier_3_85.png"), require("./triportimages/Tripod_Tier_3_78.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Storm Dragon Awakening") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_37.png"),
+            require("./triportimages/Tripod_Tier_2_29.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_61.png"),
+            require("./triportimages/Tripod_Tier_3_87.png"), require("./triportimages/Tripod_Tier_3_85.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Phoenix Advent") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_29.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_43.png"),
+            require("./triportimages/Tripod_Tier_3_38.png"), require("./triportimages/Tripod_Tier_3_6.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sky Shattering Blow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_9.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_43.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_16.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_36.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_69.png"),
+            require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_29.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_40.png"), require("./triportimages/Tripod_Tier_3_27.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Triple Fist") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_19.png"), require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_25.png"), require("./triportimages/Tripod_Tier_2_58.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_6.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Moon Flash Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_10.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_28.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_41.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Swift Wind Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_6.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_58.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Violent Tiger") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_35.png"), require("./triportimages/Tripod_Tier_1_69.png"), require("./triportimages/Tripod_Tier_1_4.png"),
+            require("./triportimages/Tripod_Tier_2_77.png"), require("./triportimages/Tripod_Tier_2_49.png"), require("./triportimages/Tripod_Tier_2_39.png"),
+            require("./triportimages/Tripod_Tier_3_51.png"), require("./triportimages/Tripod_Tier_3_49.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sweeping Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_60.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_19.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     } // end of striker
     else if (skillClicked === "Esoteric Skill: Blast Formation") { // Start of wardancer
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_0.png"), require("./triportimages/Tripod_Tier_1_50.png"),
+            require("./triportimages/Tripod_Tier_2_36.png"), require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_13.png"),
+            require("./triportimages/Tripod_Tier_3_54.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Spiral Impact") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_71.png"),
+            require("./triportimages/Tripod_Tier_2_6.png"), require("./triportimages/Tripod_Tier_2_36.png"), require("./triportimages/Tripod_Tier_2_50.png"),
+            require("./triportimages/Tripod_Tier_3_0.png"), require("./triportimages/Tripod_Tier_3_44.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Rising Fire Dragon") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_71.png"), require("./triportimages/Tripod_Tier_1_36.png"), require("./triportimages/Tripod_Tier_1_23.png"),
+            require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_19.png"), require("./triportimages/Tripod_Tier_2_32.png"),
+            require("./triportimages/Tripod_Tier_3_33.png"), require("./triportimages/Tripod_Tier_3_5.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Flash Heat Fang") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_18.png"), require("./triportimages/Tripod_Tier_1_19.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_39.png"), require("./triportimages/Tripod_Tier_2_40.png"), require("./triportimages/Tripod_Tier_2_33.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_50.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sleeping Ascent Celebration") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_4.png"),
+            require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_50.png"),
+            require("./triportimages/Tripod_Tier_3_77.png"), require("./triportimages/Tripod_Tier_3_9.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Roar of Courage") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_37.png"),
+            require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_47.png"), require("./triportimages/Tripod_Tier_2_46.png"),
+            require("./triportimages/Tripod_Tier_3_45.png"), require("./triportimages/Tripod_Tier_3_39.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Seismic Strike") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_77.png"), require("./triportimages/Tripod_Tier_1_29.png"), require("./triportimages/Tripod_Tier_1_51.png"),
+            require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_40.png"),
+            require("./triportimages/Tripod_Tier_3_22.png"), require("./triportimages/Tripod_Tier_3_8.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Lightning Strike") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_7.png"),
+            require("./triportimages/Tripod_Tier_2_87.png"), require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_40.png"),
+            require("./triportimages/Tripod_Tier_3_53.png"), require("./triportimages/Tripod_Tier_3_38.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Esoteric Skill: Call of the Wind God") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_15.png"), require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_17.png"),
+            require("./triportimages/Tripod_Tier_2_58.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_11.png"),
+            require("./triportimages/Tripod_Tier_3_85.png"), require("./triportimages/Tripod_Tier_3_78.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Wind's Whisper") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_6.png"), require("./triportimages/Tripod_Tier_1_25.png"), require("./triportimages/Tripod_Tier_1_49.png"),
+            require("./triportimages/Tripod_Tier_2_24.png"), require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_51.png"),
+            require("./triportimages/Tripod_Tier_3_50.png"), require("./triportimages/Tripod_Tier_3_16.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Phoenix Advent") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_29.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_33.png"), require("./triportimages/Tripod_Tier_2_43.png"),
+            require("./triportimages/Tripod_Tier_3_38.png"), require("./triportimages/Tripod_Tier_3_6.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sky Shattering Blow") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_9.png"), require("./triportimages/Tripod_Tier_1_6.png"),
+            require("./triportimages/Tripod_Tier_2_43.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_50.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_36.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Lightning Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_10.png"), require("./triportimages/Tripod_Tier_1_34.png"), require("./triportimages/Tripod_Tier_1_69.png"),
+            require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_29.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_40.png"), require("./triportimages/Tripod_Tier_3_27.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Triple Fist") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_19.png"), require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_25.png"), require("./triportimages/Tripod_Tier_2_58.png"), require("./triportimages/Tripod_Tier_2_69.png"),
+            require("./triportimages/Tripod_Tier_3_6.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Moon Flash Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_13.png"), require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_10.png"), require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_28.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_41.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Swift Wind Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_17.png"), require("./triportimages/Tripod_Tier_1_14.png"), require("./triportimages/Tripod_Tier_1_13.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_6.png"),
+            require("./triportimages/Tripod_Tier_3_8.png"), require("./triportimages/Tripod_Tier_3_58.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Energy Combustion") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_25.png"), require("./triportimages/Tripod_Tier_1_11.png"), require("./triportimages/Tripod_Tier_1_34.png"),
+            require("./triportimages/Tripod_Tier_2_51.png"), require("./triportimages/Tripod_Tier_2_56.png"), require("./triportimages/Tripod_Tier_2_0.png"),
+            require("./triportimages/Tripod_Tier_3_7.png"), require("./triportimages/Tripod_Tier_3_53.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
     }
     else if (skillClicked === "Sweeping Kick") {
-        skillImages.push(require("./triportimages/Tripod_Tier_1_52.png"), require("./triportimages/Tripod_Tier_1_41.png"), require("./triportimages/Tripod_Tier_1_47.png"),
-            require("./triportimages/Tripod_Tier_2_4.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_33.png"),
-            require("./triportimages/Tripod_Tier_3_44.png"), require("./triportimages/Tripod_Tier_3_53.png"));
+        skillImages.push(require("./triportimages/Tripod_Tier_1_37.png"), require("./triportimages/Tripod_Tier_1_33.png"), require("./triportimages/Tripod_Tier_1_60.png"),
+            require("./triportimages/Tripod_Tier_2_7.png"), require("./triportimages/Tripod_Tier_2_19.png"), require("./triportimages/Tripod_Tier_2_17.png"),
+            require("./triportimages/Tripod_Tier_3_39.png"), require("./triportimages/Tripod_Tier_3_40.png"));
 
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",

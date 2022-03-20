@@ -119,7 +119,7 @@ function SkillRow(props) {
   const [open, setOpen] = useState(false); // state opening different skill tripods
 
 
-  useEffect(() => { // resets counters when switching Roles
+  useEffect(() => { // resets counters when switching Roles or reset button
     setSkillCounter(1); //initalize back to 1
     setReqCounter(1); // initalize back to 1
     setbtngrayscale_tier1_1('grayscale(100%)');
