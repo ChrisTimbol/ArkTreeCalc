@@ -10,8 +10,9 @@ function importImages(r) {
     r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
     return images;
   }
-  
-
+ 
+  //add img/names/tooltip
+ 
 // Creates rows based on amount of images
 function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount) {
     var skillTypeText; 
