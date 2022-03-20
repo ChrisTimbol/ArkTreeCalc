@@ -156,7 +156,7 @@ function SkillRow(props) {
         setOpen(!open)
       }} aria-controls="example-collapse-text" sm='3' xs={{ span: 3, order: 2 }} md={{ span: 3, order: 2 }} lg='4' className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
-          <Col className="SkillCard_skill_type small ">{props.skillType}</Col>
+          <Col className="SkillCard_skill_type small "      style={{ color: props.skillTypeColor}}>{props.skillType}</Col>
           <Col className="SkillCard_skill_name h6">{props.skillName}</Col>
         </Stack>
       </Col>

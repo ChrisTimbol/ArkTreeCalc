@@ -8,7 +8,7 @@ import Stack from 'react-bootstrap/Stack'; */
 import CreateRow from './CreateRow';
 import RoleButton from './RoleButton.jsx';
 import Button from 'react-bootstrap/Button'
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 /*    Destroyer =  const skillNameText = ["Heavy Crush","Gravity Impact","Full Swing","Earth Smasher","One-Man Army","Neutralizer","Dreadnaught","Terra break","Seismic Hammer","Endure Pain","Earth Eater","Jumping Smash","Perfect Swing","Power Strike","Gravity Compression","Gravity Force","Running Crash","Power Shoulder","Big Bang"]
 */
 
