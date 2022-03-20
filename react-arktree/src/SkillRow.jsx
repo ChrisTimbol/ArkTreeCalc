@@ -6,18 +6,21 @@ import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 import TripodSkill from "./TripodSkills";
 import Collapse from 'react-bootstrap/Collapse';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
 import blanktripod from './images/tripod.png';
 import tripod1 from './images/tripod-1.png';
 import tripod2 from './images/tripod-2.png';
 import tripod3 from './images/tripod-3.png';
+
 function reqPointAdd(skillCounter, reqCounter, setReqCounter) {
 
-      //1 2 3 4 5 6 7 8 9 10
+  //1 2 3 4 5 6 7 8 9 10
   //req 1 1 2 4 4 8 8 8 12 blank
   //   339 338 336 332 328 320 312 304 292
-  if (skillCounter === 1 ) {
+  if (skillCounter === 1) {
     setReqCounter(reqCounter = 1);
- 
+
 
   } else if (skillCounter === 2) {
     setReqCounter(reqCounter = 2);
@@ -85,12 +88,12 @@ function selectTier1Image(btnGrayscale_tier1_1, btnGrayscale_tier1_2, btnGraysca
   }
   return <Image src={whatTripod} className="tripod-img" width="50px " ></Image>
 }
-function addOverallCount(skillCounter, setOverallCount,overallCount) {
+function addOverallCount(skillCounter, setOverallCount, overallCount) {
   if (skillCounter === 1 || skillCounter === 2) {
     setOverallCount(overallCount -= 1)
   } else if (skillCounter === 3) {
     setOverallCount(overallCount -= 2)
-  } else if (skillCounter === 4 || skillCounter === 5 ) {
+  } else if (skillCounter === 4 || skillCounter === 5) {
     setOverallCount(overallCount -= 4)
   } else if (skillCounter === 6 || skillCounter === 7 || skillCounter === 8) {
     setOverallCount(overallCount -= 8)
@@ -105,10 +108,10 @@ function subOverallCount(skillCounter, setOverallCount, overallCount) {
   } else if (skillCounter === 9 || skillCounter === 8 || skillCounter === 7) {
     setOverallCount(overallCount += 8)
   } else if (skillCounter === 6 || skillCounter === 5) {
-  setOverallCount(overallCount += 4)
-  } else if (skillCounter === 4 ) {
+    setOverallCount(overallCount += 4)
+  } else if (skillCounter === 4) {
     setOverallCount(overallCount += 2)
-  }  else if (skillCounter === 3 || skillCounter === 2  ) {
+  } else if (skillCounter === 3 || skillCounter === 2) {
     setOverallCount(overallCount += 1)
   }
 }
@@ -147,7 +150,17 @@ function SkillRow(props) {
     <Row aria-expanded={open} className="SkillCard mb-1 btn-outline-secondary">
 
       <Col sm='auto' xs={{ span: 2, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto ">
-        <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
+        <OverlayTrigger placement="bottom-end" delay={{ show: 100, hide: 300 }}
+          overlay={
+            <Tooltip id="button-tooltip" >
+              <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
+              {props.skillName}
+              {props.SkillDescription }
+            </Tooltip>}
+        >
+          <Image className="skill-img border border-dark" height='48' width='48' src={props.skillImage}  ></Image>
+        </OverlayTrigger>
+
       </Col>
       {/* onClick on col's makes Name/Points the only clickable area to open tripod*/}
       <Col onClick={() => {
@@ -156,7 +169,7 @@ function SkillRow(props) {
         setOpen(!open)
       }} aria-controls="example-collapse-text" sm='3' xs={{ span: 3, order: 2 }} md={{ span: 3, order: 2 }} lg='4' className="SkillCard_skill_container my-auto ">
         <Stack className="SkillCard_skill" >
-          <Col className="SkillCard_skill_type small "      style={{ color: props.skillTypeColor}}>{props.skillType}</Col>
+          <Col className="SkillCard_skill_type small " style={{ color: props.skillTypeColor }}>{props.skillType}</Col>
           <Col className="SkillCard_skill_name h6">{props.skillName}</Col>
         </Stack>
       </Col>

@@ -16,19 +16,22 @@ const soulfistSkillNameText = ["Energy Blast", "Venomous Fist", "Lightning Palm"
 const strikerSkillNameText = ["Esoteric Skill: Blast Formation", "Esoteric Skill: Spiral Impact", "Esoteric Skill: Tiger Emerges", "Flash Heat Fang", "Sleeping Ascent Celebration", "Lightning Whisper", "Berserk Circle", "Esoteric Skill: Lightning Tiger Strike", "Esoteric Skill: Call the Wind God", "Storm Dragon Awakening", "Phoenix Advent", "Sky Shattering Blow", "Lightning Kick", "Triple Fist", "Moon Flash Kick", "Swift Wind Kick", "Violent Tiger", "Sweeping Kick"]
 const wardancerSkillNameText = ["Esoteric Skill: Blast Formation", "Esoteric Skill: Spiral Impact", "Esoteric Skill: Rising Fire Dragon", "Flash Heat Fang", "Sleeping Ascent Celebration", "Roar of Courage", "Seismic Strike", "Esoteric Skill: Lightning Strike", "Esoteric Skill: Call of the Wind God", "Wind's Whisper", "Phoenix Advent", "Sky Shattering Blow", "Lightning Kick", "Triple Fist", "Moon Flash Kick", "Swift Wind Kick", "Energy Combustion", "Sweeping Kick"]
 
+    const artilleristSkillDescription = [" Fire a massive bullet to inflict damage"]
+
 
 function createTripod(skillClicked) {
     var defaultImg = require("./triportimages/Tripod_Tier_1_0.png");
     var defaultTripodName = "Skill"
     var skillImages = []
+    var skillDescription = [] //tool tip data
     var tripodName = []
-
+    var tripodDescription = [] // tripod tooltips
     //Artillerist
     if (skillClicked === "Enhanced Shell") {
         skillImages.push(require("./triportimages/Tripod_Tier_1_98.png"), require("./triportimages/Tripod_Tier_1_4.png"), require("./triportimages/Tripod_Tier_1_60.png"),
             require("./triportimages/Tripod_Tier_2_0.png"), require("./triportimages/Tripod_Tier_2_61.png"), require("./triportimages/Tripod_Tier_2_6.png"),
             require("./triportimages/Tripod_Tier_3_2.png"), require("./triportimages/Tripod_Tier_3_13.png"));
-
+ 
         tripodName.push("Armor Destruction", "Vital Point Barrage", "Repulse",
             "Bullet Enhancement", "Law of the Jungle", "Swift Fingers",
             "Piercing Shell", "Internal Ignition")
@@ -180,12 +183,11 @@ function createTripod(skillClicked) {
             "EMP Explosion", "Power Bomb")
    
     } /** End of Artillerist Abilities */
-    /***************************************Here is where we start */
     else if (skillClicked === "Sound Shock") { // Bard start
         skillImages.push(require("./triportimages/Tripod_Tier_1_56.png"), require("./triportimages/Tripod_Tier_1_7.png"), require("./triportimages/Tripod_Tier_1_8.png"),
             require("./triportimages/Tripod_Tier_2_14.png"), require("./triportimages/Tripod_Tier_2_50.png"), require("./triportimages/Tripod_Tier_2_34.png"),
             require("./triportimages/Tripod_Tier_3_53.png"), require("./triportimages/Tripod_Tier_3_54.png"));
-
+        
         tripodName.push("Range Install", "Guilding Enhancement", "Slow Effect",
             "Vital Point Bombardment", "Law of the Jungle", "Weak Point Detection",
             "EMP Explosion", "Power Bomb")
@@ -2463,12 +2465,12 @@ function createTripod(skillClicked) {
     else {
         return [defaultImg, defaultTripodName];
     }
-    return [skillImages, tripodName]
+    return [skillImages, tripodName, skillDescription]
 } 
 
  export  { artilleristSkillNameText, bardSkillNameText, berserkerSkillNameText,
 deadeyeSkillNameText, deathbladeSkillNameText, gunlancerSkillNameText, gunslingerSkillNameText,
 paladinSkillNameText, scrapperSkillNameText, shadowhunterSkillNameText, sharpshooterSkillNameText,
-sorceressSkillNameText, soulfistSkillNameText, strikerSkillNameText, wardancerSkillNameText};
+sorceressSkillNameText, soulfistSkillNameText, strikerSkillNameText, wardancerSkillNameText, artilleristSkillDescription};
 export default createTripod;
 

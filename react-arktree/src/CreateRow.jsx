@@ -3,7 +3,8 @@ import React from 'react';
 import  { artilleristSkillNameText, bardSkillNameText, berserkerSkillNameText,
   deadeyeSkillNameText, deathbladeSkillNameText, gunlancerSkillNameText, gunslingerSkillNameText,
   paladinSkillNameText, scrapperSkillNameText, shadowhunterSkillNameText, sharpshooterSkillNameText,
-  sorceressSkillNameText, soulfistSkillNameText, strikerSkillNameText, wardancerSkillNameText} from './skillName.js'; 
+  sorceressSkillNameText, soulfistSkillNameText, strikerSkillNameText, wardancerSkillNameText, artilleristSkillDescription} from './skillName.js'; 
+
 // Imports images from file directory
 function importImages(r) {
     let images = {};
@@ -13,14 +14,16 @@ function importImages(r) {
  
   //add img/names/tooltip
  
-// Creates rows based on amount of images
+// Creates rows based on amount of images 
 function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount) {
     var skillTypeText; 
     var skillTypeColor;
+
     // create and set SkillRow data 
     if (characterRole === "Artillerist") {   
       const artilleristImages = importImages(require.context('../src/images/Artillerist', false, /\.(png)$/));
       return Object.keys(artilleristImages).map((image, index) => {
+
         if (index === 7 || index === 14) {
           skillTypeText = "Combo"
           skillTypeColor = "#1CC0CE"
@@ -30,7 +33,8 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallC
           skillTypeColor = "#ffd200"
         }
         // pass setState/setSkillClicked as prop because it is generated dynamically
-        return <SkillRow  skillTypeColor = {skillTypeColor} overallCount = {overallCount} setOverallCount={setOverallCount} skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
+        //  SkillDescription={artilleristSkillDescription} add to different returns below
+        return <SkillRow  SkillDescription={artilleristSkillDescription[index]} skillTypeColor = {skillTypeColor} overallCount = {overallCount} setOverallCount={setOverallCount} skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
       })
   
     } else if (characterRole === "Bard") {
