@@ -203,7 +203,7 @@ function SkillRow(props) {
               setSkillCounter(skillCounter + 1);
               reqPointAdd(skillCounter, reqCounter, setReqCounter, props.setOverallCount, props.overallCount);
               addOverallCount(skillCounter, props.setOverallCount, props.overallCount)
-
+              //damage function
 
             }
           }} className="SkillCard_buttons_plus fw-bold border border-dark d-flex justify-content-center">+</Button>
