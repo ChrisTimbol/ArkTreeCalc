@@ -4,14 +4,14 @@ import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
-import TripodSkill from "./TripodSkills";
+import TripodSkill from "../TripodSkills";
 import Collapse from 'react-bootstrap/Collapse';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
-import blanktripod from './images/tripod.png';
-import tripod1 from './images/tripod-1.png';
-import tripod2 from './images/tripod-2.png';
-import tripod3 from './images/tripod-3.png';
+import blanktripod from '../images/tripod.png';
+import tripod1 from '../images/tripod-1.png';
+import tripod2 from '../images/tripod-2.png';
+import tripod3 from '../images/tripod-3.png';
 
 function reqPointAdd(skillCounter, reqCounter, setReqCounter) {
 

@@ -21,10 +21,10 @@ import createTripod from './skillName.js'
 // stic
 function selectTier1Image(btnGrayscale_tier_1, btnGrayscale_tier_2, btnGrayscale_tier_3) {
     if (btnGrayscale_tier_1 === 'grayscale(0%)' || btnGrayscale_tier_2 === 'grayscale(0%)'|| btnGrayscale_tier_3 === 'grayscale(0%)'){
-        return <Image fluid='true' roundedCircle='true' src={tier1color}className="Triport-tier1-img" ></Image>
+        return <Image fluid='true' roundedCircle='true' src={tier1color} className="Triport-tier1-img" ></Image>
     }
     else {
-        return <Image fluid='true' roundedCircle='true' src={tier1img}className="Triport-tier1-img" ></Image>
+        return <Image fluid='true' roundedCircle='true' src={tier1img} className="Triport-tier1-img" ></Image>
     }
 }
 

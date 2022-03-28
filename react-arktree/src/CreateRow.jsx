@@ -1,4 +1,4 @@
-import SkillRow from './SkillRow.jsx';
+import SkillRow from './components/SkillRow.js';
 import React from 'react';
 import  { artilleristSkillNameText, bardSkillNameText, berserkerSkillNameText,
   deadeyeSkillNameText, deathbladeSkillNameText, gunlancerSkillNameText, gunslingerSkillNameText,

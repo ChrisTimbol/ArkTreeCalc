@@ -9,6 +9,13 @@ import CreateRow from './CreateRow';
 import RoleButton from './RoleButton.jsx';
 import Button from 'react-bootstrap/Button'
 import React, { useState} from 'react';
+import Home from '../src/pages/Home.js'
+import { Route, Routes } from "react-router-dom";
+import { BrowserRouter,  Switch } from "react-router-dom";
+import Calculator from "../src/pages/Calculator.js";
+import News from "../src/pages/News.js";
+import PatchNotes from "./pages/PatchNotes.js";
+import TierList from "./pages/TierList.js";
 /*    Destroyer =  const skillNameText = ["Heavy Crush","Gravity Impact","Full Swing","Earth Smasher","One-Man Army","Neutralizer","Dreadnaught","Terra break","Seismic Hammer","Endure Pain","Earth Eater","Jumping Smash","Perfect Swing","Power Strike","Gravity Compression","Gravity Force","Running Crash","Power Shoulder","Big Bang"]
 */
 
@@ -26,11 +33,21 @@ const App = () => {
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
-
+    <BrowserRouter>
     <div className="App" >
 
-      <Container fluid className="Book_Of_Coordination  bg-light vh-100 ">
-        <h1 className="text-center border border-dark"> Book of Coordination </h1>
+    <Routes>
+   <Route path ="/" element={<Home />} /> 
+    <Route path ="/calculator" element={<Calculator />} />
+   <Route path ="/news" element={<News />} />
+   <Route path ="/patchnotes" element={<PatchNotes />} />
+   <Route path ="/tierlist" element={<TierList />} />  
+   </Routes>
+   
+ 
+
+
+{/*       <Container fluid className="Book_Of_Coordination  bg-light vh-100 ">
           <Col  className="SideBar  d-flex justify-content-center mb-1">
           <h6 className="overallCounter my-auto">{overallCount}/340</h6 >
             <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button ">⟲</Button> 
@@ -41,8 +58,10 @@ const App = () => {
             {CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount)}
             
           </Col>
-      </Container>
+      </Container> */}
+
     </div>
+    </BrowserRouter>
   );
 }
 
