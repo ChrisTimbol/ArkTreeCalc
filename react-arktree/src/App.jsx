@@ -30,7 +30,7 @@ const App = () => {
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
-    <HashRouter>
+
     <div className="App" >
 
     <Routes>
@@ -51,7 +51,7 @@ const App = () => {
  
 
     </div>
-    </HashRouter>
+
   );
 }
 

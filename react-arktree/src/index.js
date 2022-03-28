@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter, BrowserRouter } from "react-router-dom";
 import Layout from './components/Layout.js';
 ReactDOM.render(
-  
+  <HashRouter>
   <Layout>
     <App />
-    </Layout>,
+    </Layout>
+    </HashRouter>,
   document.getElementById('root')
 );
 
