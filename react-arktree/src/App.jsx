@@ -25,10 +25,7 @@ import TierList from "./pages/TierList.js";
 
 const App = () => {
 
-  const [characterRole, setCharacterRole] = useState('Artillerist');  //set by roleButton game class selector
-  const [skillClicked, setSkillClicked] = useState("Enhanced Shell"); // move this 
-  const [reset, setReset] = useState(1);
-  const [overallCount, setOverallCount] = useState(340);
+
 
  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
@@ -46,19 +43,7 @@ const App = () => {
    
  
 
-
-{/*       <Container fluid className="Book_Of_Coordination  bg-light vh-100 ">
-          <Col  className="SideBar  d-flex justify-content-center mb-1">
-          <h6 className="overallCounter my-auto">{overallCount}/340</h6 >
-            <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button ">⟲</Button> 
-     
-            <RoleButton roleSelect={characterRole} setRole={setCharacterRole} />
-          </Col>
-          <Col xs='12' md="10" className="SkillRowColumn">
-            {CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount)}
-            
-          </Col>
-      </Container> */}
+ 
 
     </div>
     </BrowserRouter>
