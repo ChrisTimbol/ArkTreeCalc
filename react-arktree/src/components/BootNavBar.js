@@ -11,7 +11,7 @@ export default function BootNavBar() {
         <>
             <Navbar className="sticky-top" bg="dark" variant="dark" expand="lg">
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand as={Link} to="/">
                
                         <h1 className= "brand-name text-danger">ARKARENA</h1> </Navbar.Brand>
                         <Image src="arenaicon.png" width="80" className=""/>

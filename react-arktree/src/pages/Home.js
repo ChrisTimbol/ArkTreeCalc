@@ -20,7 +20,8 @@ export default function Home() {
   return (
     <>
 
-        <div className="vh-100 " style={{ backgroundImage: ("../pageImages/pagebackground.jpg"),  backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+{/* 
+        <div className="vh-100  " style={{ backgroundImage: ("../src/pageImages/pagebackground.jpg"),  backgroundRepeat: "no-repeat", backgroundSize: "cover" }}> */}
         <Container className='page-container text-center' >
 
           <h4 className="text-light"> Lost Ark PVP Fansite</h4>
@@ -44,7 +45,7 @@ export default function Home() {
        
           
         
-            <Row onClick={() => {
+            <Row  onClick={() => {
                navigate("/calculator");
             }}className="row-link d-flex align-items-center bg-dark m-2 rounded-pill" >
               <Col xs='1' lg='2' >
@@ -83,8 +84,7 @@ export default function Home() {
 
           </Row> 
         </Container>
-</div>
-
+ </div> 
 
     </>
   )

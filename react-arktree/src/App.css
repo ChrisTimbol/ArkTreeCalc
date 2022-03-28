@@ -65,3 +65,10 @@ hr {
     filter: grayscale(0%);
 }
  */
+
+ .background-lay {
+     background-color: grey;
+    background-image: ("../src/pageImages/pagebackground.jpg");
+     background-repeat: "no-repeat";
+    background-size: "cover" ;
+ }
