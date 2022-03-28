@@ -12,7 +12,7 @@ import blanktripod from '../images/tripod.png';
 import tripod1 from '../images/tripod-1.png';
 import tripod2 from '../images/tripod-2.png';
 import tripod3 from '../images/tripod-3.png';
-
+import Container from 'react-bootstrap/Container'
 function reqPointAdd(skillCounter, reqCounter, setReqCounter) {
 
   //1 2 3 4 5 6 7 8 9 10
@@ -146,7 +146,8 @@ function SkillRow(props) {
   const [btnGrayscale_tier3_2, setbtngrayscale_tier3_2] = useState('grayscale(100%)');
   /***********/
   return <div>
-
+    
+    <Container >
     <Row aria-expanded={open} className="SkillCard mb-1 btn-outline-secondary">
 
       <Col sm='auto' xs={{ span: 2, order: 1 }} md={{ span: 'auto', order: 1 }} lg={{ span: 'auto', order: 1 }} className="img-container my-auto ">
@@ -232,7 +233,7 @@ function SkillRow(props) {
         />
       </Row>
     </Collapse>
-
+    </Container>
 
   </div>
 }

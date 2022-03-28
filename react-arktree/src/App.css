@@ -66,9 +66,8 @@ hr {
 }
  */
 
- .background-lay {
-     background-color: grey;
-    background-image: ("../src/pageImages/pagebackground.jpg");
-     background-repeat: "no-repeat";
-    background-size: "cover" ;
- }
+  .backgroundImage {
+
+    background-image: url("./pageImages/pagebackground.jpg");
+     background-size:100% 100%;
+ }  

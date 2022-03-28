@@ -13,15 +13,14 @@ import newsIcon from "../homeImages/news.png"
 import tierIcon from "../homeImages/list.png"
 import noteIcon from "../homeImages/note.png"
 import calcIcon from "../homeImages/calculator.png"
-import imageBackground from "../pageImages/pagebackground.jpg"
+
 import { useNavigate } from "react-router-dom";
 export default function Home() {
   let navigate = useNavigate();
   return (
     <>
 
-{/* 
-        <div className="vh-100  " style={{ backgroundImage: ("../src/pageImages/pagebackground.jpg"),  backgroundRepeat: "no-repeat", backgroundSize: "cover" }}> */}
+
         <Container className='page-container text-center' >
 
           <h4 className="text-light"> Lost Ark PVP Fansite</h4>
@@ -84,7 +83,7 @@ export default function Home() {
 
           </Row> 
         </Container>
-{/*  </div>  */}
+ 
 
     </>
   )

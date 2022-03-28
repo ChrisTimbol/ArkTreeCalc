@@ -21,7 +21,7 @@ export default function Calculator() {
 <>
   
       
-     <Container  className="Book_Of_Coordination  bg-light vh-100  ">
+     <Container  className="Book_Of_Coordination">
 
           <Col  className="SideBar  d-flex justify-content-center mb-1">
           <h6 className="overallCounter my-auto">{overallCount}/340</h6 >
@@ -33,7 +33,7 @@ export default function Calculator() {
             {CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount)}
             
           </Col>
-      
+
       </Container> 
 
 

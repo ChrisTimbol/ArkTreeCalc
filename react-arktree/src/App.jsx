@@ -8,10 +8,10 @@ import Stack from 'react-bootstrap/Stack'; */
 import CreateRow from './CreateRow';
 import RoleButton from './RoleButton.jsx';
 import Button from 'react-bootstrap/Button'
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import Home from '../src/pages/Home.js'
 import { Route, Routes } from "react-router-dom";
-import { HashRouter,  Switch } from "react-router-dom";
+import { HashRouter, Switch } from "react-router-dom";
 import Calculator from "../src/pages/Calculator.js";
 import News from "../src/pages/News.js";
 import PatchNotes from "./pages/PatchNotes.js";
@@ -27,28 +27,19 @@ const App = () => {
 
 
 
- // createTripod(skillClicked)
+  // createTripod(skillClicked)
   // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
 
     <div className="App" >
 
-    <Routes>
-{/*    <Route path ="/" element={<Home />} /> 
-    <Route path ="/calculator" element={<Calculator />} />
-   <Route path ="/news" element={<News />} />
-   <Route path ="/patchnotes" element={<PatchNotes />} />
-   <Route path ="/tierlist" element={<TierList />} />   */}
-   <Route path ="/" element={<Home />} /> 
-    <Route path ="/calculator" element={<Calculator />} />
-   <Route path ="/news" element={<News />} />
-   <Route path ="/patchnotes" element={<PatchNotes />} />
-   <Route path ="/tierlist" element={<TierList />} />  
-   </Routes>
-   
- 
-
- 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/patchnotes" element={<PatchNotes />} />
+        <Route path="/tierlist" element={<TierList />} />
+      </Routes>
 
     </div>
 
