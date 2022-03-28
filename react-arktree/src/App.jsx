@@ -29,9 +29,9 @@ const App = () => {
 
     <div className="App" >
 
-      <Container fluid className="Book_Of_Coordination  ">
-        <Row className="NavBar">NavBar</Row>
-          <Col  className="SideBar  d-flex justify-content-start mb-1">
+      <Container fluid className="Book_Of_Coordination  bg-light vh-100 ">
+        <h1 className="text-center border border-dark"> Book of Coordination </h1>
+          <Col  className="SideBar  d-flex justify-content-center mb-1">
           <h6 className="overallCounter my-auto">{overallCount}/340</h6 >
             <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button ">⟲</Button> 
      
