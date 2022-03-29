@@ -71,3 +71,19 @@ hr {
     background-image: url("./pageImages/pagebackground.jpg");
      background-size:100% 100%;
  }  
+
+ .news-image:hover, .row-link:hover, .brand-name:hover {
+  
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+
+}
+@keyframes flash {
+0% {
+    opacity: .7;
+}
+100% {
+    opacity: 1;
+}
+}
