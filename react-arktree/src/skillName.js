@@ -18,7 +18,7 @@ const wardancerSkillNameText = ["Esoteric Skill: Blast Formation", "Esoteric Ski
 
     const artilleristSkillDescription = [" Fire a massive bullet to inflict damage"]
 
-
+// sets images/skill-names based on character class selected
 function createTripod(skillClicked) {
     var defaultImg = require("./triportimages/Tripod_Tier_1_0.png");
     var defaultTripodName = "Skill"

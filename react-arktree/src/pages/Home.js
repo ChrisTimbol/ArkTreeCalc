@@ -29,7 +29,7 @@ export default function Home() {
     
     <Row lg='2' className="d-flex justify-content-center">
 
-           
+{/*            
             <Row onClick={() => {
                navigate("/news");
             }} className="row-link d-flex align-items-center bg-dark m-2 rounded-pill" >
@@ -40,7 +40,7 @@ export default function Home() {
                 <h6>News</h6>
               </Col>
             </Row>
-         
+          */}
        
           
         

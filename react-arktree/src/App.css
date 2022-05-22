@@ -57,16 +57,7 @@ hr {
     z-index: 999999;
 }  
 
-/* .Tripod-img {
-    filter: grayscale(100%);
-}
-
-.Tripod-img-click{
-    filter: grayscale(0%);
-}
- */
-
-  .backgroundImage {
+.backgroundImage {
 
     background-image: url("./pageImages/pagebackground.jpg");
      background-size:100% 100%;

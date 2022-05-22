@@ -16,33 +16,20 @@ import Calculator from "../src/pages/Calculator.js";
 import News from "../src/pages/News.js";
 import PatchNotes from "./pages/PatchNotes.js";
 import TierList from "./pages/TierList.js";
-/*    Destroyer =  const skillNameText = ["Heavy Crush","Gravity Impact","Full Swing","Earth Smasher","One-Man Army","Neutralizer","Dreadnaught","Terra break","Seismic Hammer","Endure Pain","Earth Eater","Jumping Smash","Perfect Swing","Power Strike","Gravity Compression","Gravity Force","Running Crash","Power Shoulder","Big Bang"]
-*/
 
 // add correct color to combotype
 // add data
 // add tooltip/data
 
 const App = () => {
-
-
-
-  // createTripod(skillClicked)
-  // if skillClicked === ArtilleristSkillNameText[i] then TriportImage = triportlist1
   return (
-
-    <div className="App" >
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
-        <Route path="/news" element={<News />} />
+{/*         <Route path="/news" element={<News />} /> */}
         <Route path="/patchnotes" element={<PatchNotes />} />
         <Route path="/tierlist" element={<TierList />} />
       </Routes>
-
-    </div>
-
   );
 }
 

@@ -1,4 +1,4 @@
-
+/* 
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -13,8 +13,16 @@ import filler from "../newsImages/920115.jpg"
 import Badge from 'react-bootstrap/Badge'
 import Figure from 'react-bootstrap/Figure'
 import FigureCaption from 'react-bootstrap/FigureCaption'
+import { useState, useEffect } from 'react'
+import NewsCard from '../components/NewsCard.js';
+//https://newsdata.io/api/1/news?apikey=pub_75489edf1132d60b4efdf82a4d573bffc247&q=lost%20ark&language=en
+
+// Make link to another page 
+// loop through each result to display depending on results
+
 
 export default function News() {
+
   return (
     <Container className="text-white text-center " >
       <h1 className="display-3 text-center text-light ">Headline</h1>
@@ -74,64 +82,13 @@ export default function News() {
       <h3 className="display-3">Recent News</h3>
       <hr className="bg-light"></hr>
       <Container fluid className="text-start">
+      <NewsCard/>
+ 
 
-        <Row xs='1' lg='2'>
-          <Col>
-            <Card className="m-4 news-image">
-              <Card.Img variant="top" src={filler} />
-              <Card.Body>
-                <Card.Title className="text-primary">Card Title</Card.Title>
-                <Card.Text className="text-primary">
-                  Some quick example
-                </Card.Text>
-                <Card.Text className="text-primary">
-                  insert
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card className="m-4 news-image">
-              <Card.Img variant="top" src={filler} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example
-                </Card.Text>
-                <Button variant="light">Read More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row xs='1' lg='2'>
-          <Col>
-            <Card className="m-4 news-image">
-              <Card.Img variant="top" src={filler} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example
-                </Card.Text>
-                <Button variant="light">Read More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card className="m-4 news-image">
-              <Card.Img variant="top" src={filler} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example
-                </Card.Text>
-                <Button variant="light">Read More</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
       </Container>
 
 
     </Container>
   )
 }
+ */
