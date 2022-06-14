@@ -118,7 +118,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallC
       })
   
     } else if (characterRole === "Gunlancer") {
-      const gunlancerImages = importImages(require.context('../src/images/Gunlancer', false, /\.(png)$/));
+      const gunlancerImages = importImages(require.context('../src/images/GunLancer', false, /\.(png)$/));
       return Object.keys(gunlancerImages).map((image, index) => {
         if (index === 2 || index === 15) {
           skillTypeText = "Combo"
