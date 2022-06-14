@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "react-arktree",
   "version": "0.1.0",
   "private": true,
