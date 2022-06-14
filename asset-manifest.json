@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ArkTreeCalc/static/css/main.f38a99b4.css",
+    "main.js": "/ArkTreeCalc/static/js/main.92b6f5b4.js",
+    "static/media/lostarkfront.jpg": "/ArkTreeCalc/static/media/lostarkfront.b3d6657b22a1e544846e.jpg",
+    "static/media/patchnote1.jpg": "/ArkTreeCalc/static/media/patchnote1.2af2436effebcc856c65.jpg",
+    "static/media/season1reward.png": "/ArkTreeCalc/static/media/season1reward.1d2882f513473b36f204.png",
+    "static/media/pagebackground.jpg": "/ArkTreeCalc/static/media/pagebackground.084dcf36b00b10a2e306.jpg",
+    "static/media/news.png": "/ArkTreeCalc/static/media/news.cd9861e2b619da28c20c.png",
+    "static/media/arenaicon.png": "/ArkTreeCalc/static/media/arenaicon.6dc4552a42e7b19a6b6c.png",
+    "static/media/Tripod_Tier_3_129.png": "/ArkTreeCalc/static/media/Tripod_Tier_3_129.842fbd1030be76846282.png",
+    "static/media/calculator.png": "/ArkTreeCalc/static/media/calculator.b9dfcb5d268488d2fb35.png",
+    "static/media/Tripod_Tier_1_128.png": "/ArkTreeCalc/static/media/Tripod_Tier_1_128.3954d49235149664635b.png",
+    "static/media/Tripod_Tier_2_128.png": "/ArkTreeCalc/static/media/Tripod_Tier_2_128.9d7c974bbd5306e32f5f.png",
+    "static/media/Tripod_Tier_3_130.png": "/ArkTreeCalc/static/media/Tripod_Tier_3_130.9fbab916cf499e7d5a52.png",
+    "index.html": "/ArkTreeCalc/index.html",
+    "main.f38a99b4.css.map": "/ArkTreeCalc/static/css/main.f38a99b4.css.map",
+    "main.92b6f5b4.js.map": "/ArkTreeCalc/static/js/main.92b6f5b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f38a99b4.css",
+    "static/js/main.92b6f5b4.js"
+  ]
+}
