@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
-import tier1img from "./images/tier1.png"
+import tier1img from "./images/Tier1.png"
 import tier2img from "./images/tier2.png"
 import tier3img from "./images/tier3.png"
 import tier1color from "./images/tier1color.png"
