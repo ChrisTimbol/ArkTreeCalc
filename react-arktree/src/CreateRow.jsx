@@ -33,7 +33,7 @@ function CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallC
           skillTypeColor = "#ffd200"
         }
         // pass setState/setSkillClicked as prop because it is generated dynamically
-        //  SkillDescription={artilleristSkillDescription} add to different returns below
+        // SkillDescription={artilleristSkillDescription} add to different returns below
         return <SkillRow  SkillDescription={artilleristSkillDescription[index]} skillTypeColor = {skillTypeColor} overallCount = {overallCount} setOverallCount={setOverallCount} skillClicked ={skillClicked} reset={reset} characterRole={characterRole} setSkillClicked={setSkillClicked} key={Element+[index]} skillImage={artilleristImages[image]} skillType={skillTypeText} skillName={artilleristSkillNameText[index]} />
       })
   

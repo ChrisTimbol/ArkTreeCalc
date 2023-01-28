@@ -2,7 +2,6 @@ import React from "react";
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-
 function RoleButton(props) {
     return <>
         <DropdownButton size='sm' className= "dropdownMenu  sticky-top"  title={props.roleSelect}>
@@ -24,5 +23,4 @@ function RoleButton(props) {
         </DropdownButton>
     </>
 }
-
 export default RoleButton;

@@ -9,16 +9,7 @@ import tier1color from "./images/tier1color.png"
 import tier2color from "./images/tier2color.png"
 import tier3color from "./images/tier3color.png"
 import createTripod from './skillName.js'
-/* import createTripod from './createTripod'; */
-//import Container from 'react-bootstrap/Container';
 
-
-
-
-
-// Display tripod as grey until clicked
-// Coloring for Combo
-// stic
 function selectTier1Image(btnGrayscale_tier_1, btnGrayscale_tier_2, btnGrayscale_tier_3) {
     if (btnGrayscale_tier_1 === 'grayscale(0%)' || btnGrayscale_tier_2 === 'grayscale(0%)'|| btnGrayscale_tier_3 === 'grayscale(0%)'){
         return <Image fluid='true' roundedCircle='true' src={tier1color} className="Triport-tier1-img" ></Image>
@@ -45,11 +36,7 @@ function selectTier3Image(btnGrayscale_tier_1, btnGrayscale_tier_2) {
         return <Image fluid='true' roundedCircle='true' src={tier3img}className="Triport-tier1-img" ></Image>
     }
 }
-/* if (btnGrayscale_tier1_1 !== "grayscale(0%)" || btnGrayscale_tier1_2 === "grayscale(0%)" || btnGrayscale_tier1_3 === "grayscale(0%)") { */
 function TripodSkill(props) {
-
-
-  
     return <>
        <Col className="Triport_Container_Inside border border-dark ">
             <Row >
