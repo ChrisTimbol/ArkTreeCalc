@@ -12,7 +12,8 @@ I discovered how important a back end and database is. In this project a lot of 
 - deploying on vercel and github pages
 - React-bootstrap 
 - Routing 
-- how long a project can take, the fun it is to be able to build something from scratch.
+- how long a project can take
+- the fun it is to be able to build something from scratch.
 
 ## Framework/Libraries used
 - React
