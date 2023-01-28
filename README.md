@@ -6,7 +6,7 @@ I was stuck in tutorial 'hell' before I created this project, a lot of logic is 
 I built this as my first real React project. I tried building it with react alone, but realized it was it going to be more time consuming. So i decided to try using react-bootstrap for it and it looks pretty identical to what I was going for. 
 
 ## What I Learned
--I discovered how important a back end and database is. In this project a lot of images/logic are brute forced with if else statements. The code is really bad and if I were to redo this I would definitely use a back end to store all of the data.
+I discovered how important a back end and database is. In this project a lot of images/logic are brute forced with if else statements. The code is really bad and if I were to redo this I would definitely use a back end to store all of the data.
 - I was so hung up on finishing the project I literally typed out 100's of directories to images and made images depend on other images with if else statements (skillName.js file)
 - React, useState, useEffect, images, dynamic react statements
 - deploying on vercel and github pages
