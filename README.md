@@ -28,7 +28,6 @@ I built this as my first real React project. I tried building it with react alon
 #### or
 clone files and
 ```
-
 npm install
 ```
 Run the development server.
