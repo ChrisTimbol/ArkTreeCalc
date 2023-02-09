@@ -16,9 +16,12 @@ export default function Calculator() {
      <Container  className="Book_Of_Coordination">
           <Col  className="SideBar  d-flex justify-content-center mb-1">
           <h3 className="overallCounter my-auto text-light">Total Points Used: <span className="text-danger "> {overallCount}/340</span></h3>
-            <Button size='sm' onClick={() => setReset(!reset)}className="Reset-Button mx-2">⟲</Button> 
+            <Button size='sm' onClick={() => {
+              setOverallCount(340)
+              
+              setReset(!reset)}}className="Reset-Button mx-2">⟲</Button> 
      
-            <RoleButton roleSelect={characterRole} setRole={setCharacterRole} className="mx-2"/>
+            <RoleButton roleSelect={characterRole} setOverallCount={setOverallCount} setRole={setCharacterRole} className="mx-2"/>
           </Col>
           <Col xs='12' md="10" className="SkillRowColumn">
             {CreateRow(characterRole, setSkillClicked, reset, skillClicked, overallCount, setOverallCount)} 
